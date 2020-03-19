@@ -1,0 +1,32 @@
+{
+  "name": "dating-app",
+  "version": "1.0.0",
+  "description": "Dating app for project Tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roene/Dating-app-team.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Roene Verbeek, Jelmer Lubberts, Andres Pinto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roene/Dating-app-team/issues"
+  },
+  "homepage": "https://github.com/Roene/Dating-app-team#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
