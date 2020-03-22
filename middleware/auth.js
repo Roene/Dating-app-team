@@ -1,7 +1,7 @@
 // SOURCE: https://medium.com/swlh/jwt-authentication-authorization-in-nodejs-express-mongodb-rest-apis-2019-ad14ec818122
 const jwt   = require('jsonwebtoken')
 // OWN FILES
-const User  = require('../models/User')
+const User  = require('../models/user')
 
 // This code checks if token is valid. The JWT verify returns a payload, now we have the payload that we can find the user id
 // and we store the user request (req.user = user).
