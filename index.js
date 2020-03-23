@@ -2,7 +2,11 @@ const express       = require('express')
 const bodyParser    = require('body-parser')
 
 // OWN FILES
-const userRoute = require('./routes/user')
+const userRoute     = require('./routes/user')
+const dbconnection  = require('./db/db')
+
+// Make connection to the database
+dbconnection()
 
 express()
     .use('/static', express.static('static'))
