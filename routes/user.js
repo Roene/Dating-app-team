@@ -1,6 +1,7 @@
 const express   = require('express')
 const router    = express.Router()
 const multer    = require('multer')
+const validator = require('validator')
 // OWN FILES
 const User      = require('../models/user')
 const auth      = require('../middleware/auth')
@@ -50,6 +51,14 @@ router
             password: req.body.password,
             description: req.body.description
         })
+
+        //First testing with validator
+        if (validator.isEmail(user.email)){
+          console.log("this is an email")
+        }else {
+          console.log("this is not an email")
+        }
+
         try {
             await user.save()
             const token = await user.generateAuthToken()
