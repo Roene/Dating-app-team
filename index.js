@@ -1,6 +1,7 @@
 const express       = require('express')
 const bodyParser    = require('body-parser')
 const rateLimit     = require("express-rate-limit")
+const helmet        = require("helmet")
 // OWN FILES
 const userRoute     = require('./routes/user')
 const dbconnection  = require('./db/db')
@@ -18,6 +19,7 @@ express()
     .use(bodyParser.urlencoded({extended: true}))
     .use(bodyParser.json())
     .use(limiter)
+    .use(helmet)
     // Set view engine to ejs and let it search in the folder views
     .set('view engine', 'ejs')
     .set('views', 'views')
