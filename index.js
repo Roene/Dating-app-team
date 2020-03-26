@@ -4,10 +4,6 @@ const bodyParser    = require('body-parser')
 // OWN FILES
 const userRoute     = require('./routes/user')
 const dbconnection  = require('./db/db')
-const searchGames     = require('./api/searchGames')
-
-// API TESTING
-
 
 // Make connection to the database
 dbconnection()

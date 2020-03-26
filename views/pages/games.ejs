@@ -5,6 +5,19 @@
 
   <main>
     <h1 style="color:white">Vind je games hier</h1>
+    <% //console.log(dataTop100.length) %>
+    <% console.log(dataTop100[2].name) %>
+    <ul>
+    <% for (x=0; x < dataTop100.length; x++) { %>
+      <section>
+        <ul>
+          <li>Title: <%= dataTop100[x].name %></li>
+          <li>Score: <%= dataTop100[x].rating %></li>
+        </ul>
+      </section>
+      
+    <% } %>
+    </ul>
   </main>
 
 <%- include ('../partials/footer') %>

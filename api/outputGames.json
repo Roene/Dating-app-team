@@ -195,9 +195,9 @@
         "id": 375,
         "name": "Metal Gear Solid",
         "popularity": 12.59033617272673,
-        "rating": 91.39807512118111,
+        "rating": 91.3983015926044,
         "summary": "A third-person story-heavy stealth action title which follows Solid Snake, a special operations soldier, who infiltrates a nuclear weapons facility by the name of Shadow Moses Island to neutralize a renegade special forces unit named FOXHOUND. Throughout his journey, he uncovers various lies and military conspiracies, and his ideas of trust, violence and control are challenged.",
-        "total_rating_count": 774
+        "total_rating_count": 775
     },
     {
         "id": 1020,
@@ -459,9 +459,9 @@
         "id": 132,
         "name": "Warcraft III: Reign of Chaos",
         "popularity": 7.463841327097598,
-        "rating": 88.8189393283072,
+        "rating": 88.8191921934481,
         "summary": "Warcraft 3: Reign of Chaos is an RTS made by Blizzard Entertainment. Take control of either the Humans, the Orcs, the Night Elves or the Undead, all with different unit types and heroes with unique abilities.Play the story driven single player campaign, go online to play default- or custom maps against people around the world or create your own maps with the map creation tool.",
-        "total_rating_count": 745
+        "total_rating_count": 746
     },
     {
         "id": 364,
@@ -624,20 +624,20 @@
         "total_rating_count": 528
     },
     {
+        "id": 472,
+        "name": "The Elder Scrolls V: Skyrim",
+        "popularity": 34.65655311695646,
+        "rating": 88.1841407594314,
+        "summary": "The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.  \n \nPlay any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before.  \n \nSkyrim’s new game engine brings to life a complete virtual world with rolling clouds, rugged mountains, bustling cities, lush fields, and ancient dungeons.  \n \nChoose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions.  \n \nBattle ancient dragons like you’ve never seen. As Dragonborn, learn their secrets and harness their power for yourself.",
+        "total_rating_count": 1901
+    },
+    {
         "id": 118,
         "name": "Star Wars: Knights of the Old Republic II - The Sith Lords",
         "popularity": 5.457821604894895,
         "rating": 88.17096384104049,
         "summary": "Star Wars Knights of the Old Republic II: The Sith Lords is a sequel to the blockbuster RPG Star Wars Knights of the Old Republic. Players continue to enjoy the title's emotionally compelling and story-driven theme, additions to features such as new characters, classes, locations and force powers as well as a deeper look into the founding lore.",
         "total_rating_count": 416
-    },
-    {
-        "id": 472,
-        "name": "The Elder Scrolls V: Skyrim",
-        "popularity": 34.65655311695646,
-        "rating": 88.164505027369,
-        "summary": "The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.  \n \nPlay any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before.  \n \nSkyrim’s new game engine brings to life a complete virtual world with rolling clouds, rugged mountains, bustling cities, lush fields, and ancient dungeons.  \n \nChoose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions.  \n \nBattle ancient dragons like you’ve never seen. As Dragonborn, learn their secrets and harness their power for yourself.",
-        "total_rating_count": 1900
     },
     {
         "id": 7603,

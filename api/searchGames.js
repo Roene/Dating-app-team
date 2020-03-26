@@ -9,7 +9,9 @@ axios({
         headers: {
             'Accept': 'application/json',
             'user-key': userKey
-        },
+        }, 
+        // "where parent_game = n & version_parent = n & themes != (42)" Is from the developer of the algorithm.
+        // This is an easy way to approach the real algorithm. Source is the IGDB discord, in their #api channel
         data: "fields name,id,rating,popularity,summary,total_rating_count; where parent_game = n & version_parent = n & themes != (42) & rating_count > 150; sort rating desc; limit 100;"
     })
     .then(response => {
@@ -27,10 +29,3 @@ axios({
     .catch(err => {
         console.error(err)
     });
-
-// fields name,id,rating,popularity,summary,total_rating_count; where total_rating_count > 250; sort rating desc; limit 100;
-
-    // f name,rating;
-    // w parent_game = n & version_parent = n & themes != (42) & rating_count > 150;
-    // s rating desc;
-    // l 100;
