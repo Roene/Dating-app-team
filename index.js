@@ -19,7 +19,19 @@ express()
     .use(bodyParser.urlencoded({extended: true}))
     .use(bodyParser.json())
     .use(limiter)
-    .use(helmet)
+    .use(helmet())
+    .use(helmet.featurePolicy({
+      features: {
+      camera: ["'self'"],
+      geolocation:["'none'"],
+      midi:["'none'"],
+      usb:["'none'"],
+      magnetometer:["'none'"],
+      pictureInPicture:["'self'"],
+      accelerometer:["'none'"],
+      gyroscope:["'none'"],
+      microphone:["'self'"]
+    }}))
     // Set view engine to ejs and let it search in the folder views
     .set('view engine', 'ejs')
     .set('views', 'views')
