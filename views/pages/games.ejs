@@ -6,14 +6,18 @@
   <main>
     <h1 style="color:white">De game database</h1>
 
-    <form action="">
-      <label for="">Kies hier jouw favoriete game</label>
-      <select name="" id="" size="15">
+    <form action="/games" method="POST">
+      <label for="userName">Your username:</label>
+      <input type="text" id="userName" name="userName">
+      
+      <label for="gameName">Kies hier jouw favoriete game</label>
+      <select name="gameName" id="gameName" size="15">
         <% for (x=0; x < dataTop100.length; x++) { %>
         <option value="<% dataTop100[x].name %>"><%= dataTop100[x].name %></option>
         <% } %>
-        <input type="submit">
       </select>
+
+      <input type="submit">
     </form>>
   </main>
 

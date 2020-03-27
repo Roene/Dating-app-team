@@ -1,10 +1,11 @@
-const express   = require('express')
-const router    = express.Router()
-const multer    = require('multer')
+const express       = require('express')
+const router        = express.Router()
+const multer        = require('multer')
 // OWN FILES
-const User      = require('../models/user')
-const auth      = require('../middleware/auth')
-const dataTop100  = require('../api/outputGames.json')
+const User          = require('../models/user')
+const postGamesDD   = require('../api/FavGame')
+const auth          = require('../middleware/auth')
+const dataTop100    = require('../api/outputGames.json')
 
 
 const storage   = multer.diskStorage({
@@ -23,7 +24,7 @@ router
     .get('/signup', (req, res)  => {res.render('pages/signup')})
     .get('/login', (req, res)   => {res.render('pages/login')})
     .get('/games', (req, res)   => {res.render('pages/games', {dataTop100})})
-    // .post('/games', (req, res) => )
+    .post('/games', postGamesDD)
      // SOURCE : https://medium.com/swlh/jwt-authentication-authorization-in-nodejs-express-mongodb-rest-apis-2019-ad14ec818122
      // Login expects the user fill in an email and password, if user is found create a token and redirect the user to the index.
      .post('/login', async (req, res) => {
