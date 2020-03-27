@@ -30,6 +30,7 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+<<<<<<< HEAD
     "igdb-api-node": "^4.0.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.5",
@@ -38,5 +39,12 @@
   },
   "nodemonConfig": {
     "ignore": ["api/*.json"]
+=======
+    "express-rate-limit": "^5.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.5",
+    "multer": "^1.4.2",
+    "validator": "^13.0.0"
+>>>>>>> ed2bfd5a7b056563f64019d9b9e12197bcadbf3b
   }
 }

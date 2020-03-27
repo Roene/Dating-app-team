@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 const express       = require('express')
 const router        = express.Router()
 const multer        = require('multer')
+=======
+const express   = require('express')
+const router    = express.Router()
+const multer    = require('multer')
+const validator = require('validator')
+>>>>>>> ed2bfd5a7b056563f64019d9b9e12197bcadbf3b
 // OWN FILES
 const User          = require('../models/user')
 const postGamesDD   = require('../api/FavGame')
@@ -55,6 +62,14 @@ router
             password: req.body.password,
             description: req.body.description
         })
+
+        //First testing with validator
+        if (validator.isEmail(user.email)){
+          console.log("this is an email")
+        }else {
+          console.log("this is not an email")
+        }
+
         try {
             await user.save()
             const token = await user.generateAuthToken()
