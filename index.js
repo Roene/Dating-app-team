@@ -34,6 +34,9 @@ express()
       gyroscope:["'none'"],
       microphone:["'self'"]
     }}))
+    .use(helmet.referrerPolicy({
+      policy: 'strict-origin-when-cross-origin'
+    }))
     // Set view engine to ejs and let it search in the folder views
     .set('view engine', 'ejs')
     .set('views', 'views')
