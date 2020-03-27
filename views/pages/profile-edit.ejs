@@ -4,7 +4,7 @@
 <%- include ('../partials/header') %>
 
   <main>
-    <form class="form-style-5" method="POST" action="/signup" enctype="multipart/form-data">
+    <form class="form-style-5" method="POST" action="/profile-edit" enctype="multipart/form-data">
         <fieldset>
             <legend><span class="number">1</span> Persoonlijke informatie</legend>
             <input type="text" name="firstname" placeholder="Voornaam *" value="<%= user.firstname %>" required>
@@ -21,10 +21,8 @@
         <fieldset>
             <legend><span class="number">2</span> Account informatie</legend>
             <input type="email" name="email" placeholder="example@example.nl *" value="<%= user.email %>" required>
-            <input type="password" name="password" placeholder="Wachtwoord *" required>
-            <input type="file" name="image" accept="image/*" required>
         </fieldset>
-            <input type="submit" value="Registreren">
+            <input type="submit" value="Profiel updaten">
         </form>
   </main>
 

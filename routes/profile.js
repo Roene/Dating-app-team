@@ -42,9 +42,7 @@ router
             user.surname = req.body.surname,
             user.age = req.body.age,
             user.gender = req.body.gender,
-            user.image = req.file ? req.file.filename : null,
             user.email = req.body.email,
-            user.password = req.body.password,
             user.description = req.body.description
 
             await user.save()
