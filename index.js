@@ -4,7 +4,9 @@ const rateLimit     = require("express-rate-limit")
 const helmet        = require("helmet")
 // OWN FILES
 const userRoute     = require('./routes/user')
+const profileRoute  = require('./routes/profile')
 const dbconnection  = require('./db/db')
+
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100, //Limit to 100 each IP adres
@@ -37,5 +39,6 @@ express()
     .set('views', 'views')
 
     .use(userRoute)
+    .use(profileRoute)
 
     .listen(process.env.PORT || 3000);
