@@ -1,0 +1,18 @@
+<%- include ('../partials/head') %>
+
+<body>
+<%- include ('../partials/header') %>
+
+    <main>
+        <h1>Welom <%= user.firstname + " " + user.surname %></h1> 
+        <img src="/static/upload/<%= user.image %>" alt="profiel foto">
+        <p><%= user.age %></p>
+        <p><%= user.gender %></p>
+        <a class="button" href="/profile-edit">Profiel aanpassen</a>
+        <form method="POST" action="/delete" >
+            <button class="button delete loginButton">Verwijder account</button>
+        </form>
+    </main>
+
+<%- include ('../partials/footer') %>
+</body>
