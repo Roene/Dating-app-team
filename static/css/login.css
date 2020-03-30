@@ -109,3 +109,7 @@
 {
 	background: #090979;
 }
+
+select#gameName {
+	height: 15em;
+}
