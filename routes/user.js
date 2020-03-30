@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-const express       = require('express')
-const router        = express.Router()
-const multer        = require('multer')
-=======
 const express   = require('express')
 const router    = express.Router()
 const multer    = require('multer')
 const validator = require('validator')
->>>>>>> ed2bfd5a7b056563f64019d9b9e12197bcadbf3b
 // OWN FILES
 const User          = require('../models/user')
 const postGamesDD   = require('../api/FavGame')
@@ -28,7 +22,7 @@ const upload = multer({ storage: storage })
 
 router
     .get('/', auth, (req, res)  => {res.render('pages/index')})
-    .get('/signup', (req, res)  => {res.render('pages/signup')})
+    .get('/signup', (req, res)  => {res.render('pages/signup', {dataTop100})})
     .get('/login', (req, res)   => {res.render('pages/login')})
     .get('/games', (req, res)   => {res.render('pages/games', {dataTop100})})
     .post('/games', postGamesDD)
@@ -60,7 +54,8 @@ router
             image: req.file ? req.file.filename : null,
             email: req.body.email,
             password: req.body.password,
-            description: req.body.description
+            description: req.body.description,
+            favorite: req.body.gameName
         })
 
         //First testing with validator
