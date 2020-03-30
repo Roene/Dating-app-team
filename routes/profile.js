@@ -1,10 +1,11 @@
-const express   = require('express')
-const router    = express.Router()
-const multer    = require('multer')
-const validator = require('validator')
+const express       = require('express')
+const router        = express.Router()
+const multer        = require('multer')
+const validator     = require('validator')
 // OWN FILES
-const User      = require('../models/user')
-const auth      = require('../middleware/auth')
+const User          = require('../models/user')
+const auth          = require('../middleware/auth')
+const dataTop100    = require('../api/outputGames.json')
 
 const storage   = multer.diskStorage({
     destination: (req, file, callback) => {
@@ -21,7 +22,7 @@ router
     .get('/profile', auth, (req, res) => {
         try {
             const user = req.user
-            res.render('pages/profile', {user})
+            res.render('pages/profile', {user}, {dataTop100})
         } catch (err) {
             res.status(500).send(err)
         }

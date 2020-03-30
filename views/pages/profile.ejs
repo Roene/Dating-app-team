@@ -8,6 +8,7 @@
         <img src="/static/upload/<%= user.image %>" alt="profiel foto">
         <p><%= user.age %></p>
         <p><%= user.gender %></p>
+        <p>Favoriete game: <%= user.favorite %></p>
         <a class="button" href="/profile-edit">Profiel aanpassen</a>
         <form method="POST" action="/delete" >
             <button class="button delete loginButton">Verwijder account</button>
