@@ -19,11 +19,6 @@
   "bugs": {
     "url": "https://github.com/Roene/Dating-app-team/issues"
   },
-  "nodemonConfig": {
-    "ignore": [
-      "api/*.json"
-    ]
-  },
   "homepage": "https://github.com/Roene/Dating-app-team#readme",
   "devDependencies": {
     "nodemon": "^2.0.2"
