@@ -22,7 +22,7 @@ router
     .get('/profile', auth, (req, res) => {
         try {
             const user = req.user
-            res.render('pages/profile', {user}, {dataTop100})
+            res.render('pages/profile', {user, dataTop100})
         } catch (err) {
             res.status(500).send(err)
         }
