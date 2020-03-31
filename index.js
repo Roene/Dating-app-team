@@ -5,8 +5,7 @@ const rateLimit     = require("express-rate-limit")
 const userRoute     = require('./routes/user')
 const profileRoute  = require('./routes/profile')
 const dbconnection  = require('./db/db')
-const axios         = require('./api/searchGames')
-
+const axiosApiCall  = require('./api/searchGames')
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -16,6 +15,9 @@ const limiter = rateLimit({
 
 // Make connection to the database
 dbconnection()
+
+// Run api get request for top 100 games
+axiosApiCall()
 
 express()
     .use('/static', express.static('static'))

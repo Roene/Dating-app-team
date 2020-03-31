@@ -15,9 +15,9 @@
         const item = dataTop100.find(item => item.name === game)
         
         const baseURL = "//images.igdb.com/igdb/image/upload/t_screenshot_huge/"
-        const nItemsPlusOne = item.screenshots.length + 1
+        const nItems = item.screenshots.length
 
-        const randomNumer = Math.floor(Math.random() * nItemsPlusOne)
+        const randomNumer = Math.floor(Math.random() * nItems)
 
         const hashImageId = item.screenshots[randomNumer].image_id
         const jpgFormat = ".jpg"

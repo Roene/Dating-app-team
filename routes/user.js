@@ -7,7 +7,6 @@ const User          = require('../models/user')
 const auth          = require('../middleware/auth')
 const dataTop100    = require('../api/outputGames.json')
 
-
 const storage   = multer.diskStorage({
     destination: (req, file, callback) => {
         callback(null, 'static/upload/')
