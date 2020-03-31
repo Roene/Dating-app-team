@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1942,
+        "name": "The Witcher 3: Wild Hunt",
+        "popularity": 134.9575392270916,
+        "rating": 96.343556935951,
+        "summary": "The Witcher: Wild Hunt is a story-driven, next-generation open world role-playing game set in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The Witcher you play as the professional monster hunter, Geralt of Rivia, tasked with finding a child of prophecy in a vast open world rich with merchant cities, viking pirate islands, dangerous mountain passes, and forgotten caverns to explore.",
+        "total_rating_count": 2089
+    },
+    {
+        "id": 19560,
+        "name": "God of War",
+        "popularity": 75.6685118819895,
+        "rating": 95.7086631736031,
+        "summary": "\"It is a new beginning for Kratos. Living as a man, outside the shadow of the gods, he seeks solitude in the unfamiliar lands of Norse mythology. With new purpose and his son at his side, Kratos must fight for survival as powerful forces threaten to disrupt the new life he has created...\"",
+        "total_rating_count": 892
+    },
+    {
+        "id": 1009,
+        "name": "The Last of Us",
+        "popularity": 48.47580009213063,
+        "rating": 94.4780188440383,
+        "summary": "A third person shooter/stealth/survival hybrid, in which twenty years after the outbreak of a parasitic fungus which takes over the neural functions of humans, Joel, a Texan with a tragic familial past, finds himself responsible with smuggling a fourteen year old girl named Ellie to a militia group called the Fireflies, while avoiding strict and deadly authorities, infected fungal hosts and other violent survivors.",
+        "total_rating_count": 1525
+    },
+    {
+        "id": 1802,
+        "name": "Chrono Trigger",
+        "popularity": 43.34930524650151,
+        "rating": 94.3489803180563,
+        "summary": "In this turn-based Japanese RPG, young Crono must travel through time through a misfunctioning teleporter to rescue his misfortunate companion and take part in an intricate web of past and present perils. The adventure that ensues soon unveils an evil force set to destroy the world, triggering Crono's race against time to change the course of history and bring about a brighter future.",
+        "total_rating_count": 624
+    },
+    {
+        "id": 9927,
+        "name": "Persona 5",
+        "popularity": 55.16253249947298,
+        "rating": 93.9651259743668,
+        "summary": "Persona 5, a turn-based JRPG with visual novel elements, follows a high school student with a criminal record for a crime he didn't commit. Soon he meets several characters who share similar fates to him, and discovers a metaphysical realm which allows him and his friends to channel their pent-up frustrations into becoming a group of vigilantes reveling in aesthetics and rebellion while fighting corruption.",
+        "total_rating_count": 406
+    },
+    {
+        "id": 7346,
+        "name": "The Legend of Zelda: Breath of the Wild",
+        "popularity": 63.63239354877328,
+        "rating": 93.3906708356855,
+        "summary": "Step into a world of discovery, exploration and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new game in the acclaimed series. Travel across fields, through forests and to mountain peaks as you discover what has become of the ruined kingdom of Hyrule in this stunning open-air adventure.",
+        "total_rating_count": 967
+    },
+    {
+        "id": 25076,
+        "name": "Red Dead Redemption 2",
+        "popularity": 68.98177947464715,
+        "rating": 93.2805635405846,
+        "summary": "Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America’s unforgiving heartland. The game's vast and atmospheric world will also provide the foundation for a brand new online multiplayer experience.",
+        "total_rating_count": 647
+    },
+    {
+        "id": 3349,
+        "name": "Paper Mario: The Thousand-Year Door",
+        "popularity": 18.60839533933484,
+        "rating": 93.2749565815432,
+        "summary": "What Sleeps Behind the Door? \n \nTime passes, the pages turn…and a new chapter unfolds in an unfamiliar land! Get ready for a two-dimensional role-playing adventure for the ages as Mario returns to paper form to discover a mystery that sleeps behind an ancient, legendary portal called the Thousand-Year Door. The quest is long, the dangers many, and this time, Mario will have to make full use of his papery qualities just to survive. \n \nTake to the stage! Impressing the crowd builds power for super attacks, but don’t disappoint the audience, or you’ll pay! \n \nNo need to go it alone! You’ll need to rely on sidekicks to survive, and even enemies have roles to play… \n \nDon’t fold under pressure! Fold into a paper airplane, turn sideways to slip through cracks, and much more. \n \nStay on your toes! Stamp foes, swing your hammer, and use timely button presses to do damage!",
+        "total_rating_count": 190
+    },
+    {
+        "id": 481,
+        "name": "Silent Hill 2",
+        "popularity": 15.9337023763979,
+        "rating": 93.2048674913579,
+        "summary": "The second entry in the Silent Hill franchise, Silent Hill 2 is a third-person survival horror title with exploration and puzzle-solving elements and a heavy emphasis on psychological storytelling which follows James Sunderland, who receives a letter, seemingly from his three-years-deceased wife Mary, in which he is beckoned to the fog-ridden town of Silent Hill at the same time as numerous other troubled people.",
+        "total_rating_count": 509
+    },
+    {
+        "id": 7331,
+        "name": "Uncharted 4: A Thief's End",
+        "popularity": 47.36134469090691,
+        "rating": 93.11617866408079,
+        "summary": "Several years after his last adventure, retired fortune hunter, Nathan Drake, is forced back into the world of thieves. With the stakes much more personal, Drake embarks on a globe-trotting journey in pursuit of a historical conspiracy behind a fabled pirate treasure. His greatest adventure will test his physical limits, his resolve, and ultimately what he's willing to sacrifice to save the ones he loves.",
+        "total_rating_count": 1012
+    },
+    {
+        "id": 379,
+        "name": "Metal Gear Solid 3: Snake Eater",
+        "popularity": 9.692752129545045,
+        "rating": 92.96896825724049,
+        "summary": "A stealth action/survival game and prequel to Metal Gear Solid 1 (1998) and 2 (2001), MGS3 follows Naked Snake as he trudges through rain forests and swamps in order to clear the name of the American government of suspicion at detonating a nuclear missile within Soviet soil by dispatching the organization behind the act, in a story of shifting allegiances, deception, warfare, mentorship and sexuality.",
+        "total_rating_count": 606
+    },
+    {
+        "id": 1070,
+        "name": "Super Mario World",
+        "popularity": 17.49393993811111,
+        "rating": 92.8327390263558,
+        "summary": "Super Mario World (subtitled Super Mario Bros. 4 on the Japanese logo) is a 2D Mario platform game and a launch title for the Super Nintendo Entertainment System. Being a sequel to Super Mario Bros. 3, the game retains many of the elements that debuted in Super Mario Bros. 3, such as the world map and Koopaling boss fights, while introducing a large variety of new gameplay mechanics, such as an expanded and less linear world map and the ability to save the game. Introduced in Super Mario World is Mario's sidekick, Yoshi (and his species that shares his name), where he serves as a playable mount for the Mario Bros. with his own unique abilities and gameplay style.",
+        "total_rating_count": 809
+    },
+    {
+        "id": 832,
+        "name": "Planescape: Torment",
+        "popularity": 26.18669206765616,
+        "rating": 92.828472115624,
+        "summary": "In this CRPG set in the Dungeons & Dragons setting of Planescape, The Nameless One, an immortal amnesiac, sets off on a quest across the infinite Planes and gathers a party of conflicted companions to find out who he is and reclaim his mortality. Throughout it, he faces the consequences of the horrors he committed in his past lives and tries to find the root of all the torment plaguing his companions and the Planes.",
+        "total_rating_count": 166
+    },
+    {
+        "id": 1105,
+        "name": "Metroid Prime",
+        "popularity": 6.572277006118619,
+        "rating": 92.81050823072411,
+        "summary": "Everyone's favorite heroine, Samus Aran, is back! Packed to the gills with exploration, creative power-ups, and wicked enemies, Metroid Prime is a first-person adventure worthy of the Metroid stamp. An action-packed adventure set in the first-person perspective, Metroid Prime takes place just after the events in the original Metroid (NES). It has lead character Samus Aran, a bounty hunter by trade, chasing down the evil Space Pirates. Their intention is to use a genetic mutagen called Phazon to create a super army and take over the universe. While the installments in the series before have never been home to deeply involving storylines, Metroid Prime breaks the shell to offer up one of the most intriguing and read-worthy sagas yet. Developed by Texas-based Retro Studios. Metroid Prime brings all of the elements of the acclaimed franchise into a massive 3D arena.",
+        "total_rating_count": 416
+    },
+    {
+        "id": 11156,
+        "name": "Horizon Zero Dawn",
+        "popularity": 59.84324518461262,
+        "rating": 92.521996814681,
+        "summary": "Horizon Zero Dawn, an exhilarating new action role playing game exclusively for the PlayStation 4 system, developed by the award winning Guerrilla Games, creatos of PlayStation's venerated Killzone franchise. As Horizon Zero Dawn's main protagonist Aloy, a skilled hunter, explore a vibrant and lush world inhabited by mysterious mechanized creatures.",
+        "total_rating_count": 809
+    },
+    {
+        "id": 6,
+        "name": "Baldur's Gate II: Shadows of Amn",
+        "popularity": 22.17465262325075,
+        "rating": 92.4505554474774,
+        "summary": "Every World has conflict. Good and evil. Friend and foe. Safety and danger. In Baldur's Gate II: Shadows of Amn, you'll find yourself between these factions. This epic sequel to the Roleplaying Game of the Year will immerse you in a world of intrigue, adventure and fierce combat where your ability to discern the difference between these sides - with the assistance of steel and spell - determines your fate. Set in the Forgotten Realms campaign setting, Baldur's Gate II is the most stunning Advanced Dungeons and Dragons game to date.",
+        "total_rating_count": 276
+    },
+    {
+        "id": 1026,
+        "name": "The Legend of Zelda: A Link to the Past",
+        "popularity": 14.15057373443994,
+        "rating": 92.36485118355739,
+        "summary": "A top-down action/adventure title in which Link, a blacksmith's nephew living in the fantastical land of Hyrule, must free the land from the evildoings of Ganon by taking up the mythical Master Sword and collecting the three Triforces in order to free the Seven Maidens, including the princess of Hyrule, Zelda, from the dungeons and castles of the Dark World.",
+        "total_rating_count": 810
+    },
+    {
+        "id": 1029,
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "popularity": 20.61441506153754,
+        "rating": 92.32513541208179,
+        "summary": "The Legend of Zelda: Ocarina of Time reveals the genesis of the fantasy land of Hyrule, the origin of the Triforce, and the tale of the first exploits of Princess Zelda and the heroic adventurer Link. Vibrant, real-time 3-D graphics transport you into the fantasy world of Hyrule. Your quest takes you through dense forests and across wind-whipped deserts. Swim raging rivers, climb treacherous mountains, dash on horseback across rolling hills, and delve into dungeons full of creatures that fight to the finish to put an end to your adventures. With immersive graphics, a sweeping story line, swashbuckling adventure, mind-bending puzzles, and a touch of humor, The Legend of Zelda: Ocarina of Time is one of Nintendo's most epic challenges ever.",
+        "total_rating_count": 1039
+    },
+    {
+        "id": 1128,
+        "name": "Castlevania: Symphony of the Night",
+        "popularity": 11.69877185174775,
+        "rating": 91.994339403865,
+        "summary": "Dracula's castle has risen again and it's up to the mysterious Alucard to face Dracula and save the world from his nocturnal embrace. Discover hidden rooms, fight dangerous enemies and equip hundreds of weapons to uncover the secret behind Dracula's power before it's too late.",
+        "total_rating_count": 257
+    },
+    {
+        "id": 74,
+        "name": "Mass Effect 2",
+        "popularity": 16.60237561713213,
+        "rating": 91.87549887992131,
+        "summary": "Are you prepared to lose everything to save the galaxy? You'll need to be, Commander Shephard. It's time to bring together your greatest allies and recruit the galaxy's fighting elite to continue the resistance against the invading Reapers. So steel yourself, because this is an astronomical mission where sacrifices must be made. You'll face tougher choices and new, deadlier enemies. Arm yourself and prepare for an unforgettable intergalactic adventure. \n \nGame Features: \n \nShift the fight in your favour. Equip yourself with powerful new weapons almost instantly thanks to a new inventory system. Plus, an improved health regeneration system means you'll spend less time hunting for restorative items. \n \nMake every decision matter. Divisive crew members are just the tip of the iceberg, Commander, because you'll also be tasked with issues of intergalactic diplomacy. And time's a wastin' so don't be afraid to use new prompt-based actions that let you interrupt conversations, even if they could alter the fate of your crew...and the galaxy. \n \nForge new alliances, carefully. You'll fight alongside some of your most trustworthy crew members, but you'll also get the opportunity to recruit new talent. Just choose your new partners with care because the fate of the galaxy rests on your shoulders, Commander.",
+        "total_rating_count": 1396
+    },
+    {
+        "id": 72,
+        "name": "Portal 2",
+        "popularity": 22.3975437034955,
+        "rating": 91.5963447752474,
+        "summary": "Sequel to the acclaimed Portal (2007), Portal 2 pits the protagonist of the original game, Chell, and her new robot friend, Wheatley, against more puzzles conceived by GLaDOS, an A.I. with the sole purpose of testing the Portal Gun's mechanics and taking revenge on Chell for the events of Portal. As a result of several interactions and revelations, Chell once again pushes to escape Aperture Science Labs.",
+        "total_rating_count": 1806
+    },
+    {
+        "id": 193,
+        "name": "Day of the Tentacle",
+        "popularity": 5.457821604894895,
+        "rating": 91.5516921759096,
+        "summary": "Day of the Tentacle, also known as Maniac Mansion II: Day of the Tentacle, is a 1993 graphic adventure game developed and published by LucasArts. It is the sequel to the 1987 game Maniac Mansion. The game's plot follows Bernard Bernoulli and his friends Hoagie and Laverne as they attempt to stop the evil Purple Tentacle — a sentient, disembodied tentacle — from taking over the world. The player takes control of the three and solves puzzles while using time travel to explore different periods of history. \n \nDave Grossman and Tim Schafer co-led the game's development, their first time in such a role. The pair carried over a limited amount of elements from Maniac Mansion and forwent the character selection aspect to simplify development. Inspirations included Chuck Jones cartoons and the history of the United States. Day of the Tentacle is the eighth LucasArts title to use the SCUMM engine, and the company's first title to feature voice acting. \n \nThe game was released simultaneously on floppy disk and CD-ROM to critical acclaim and commercial success. Critics focused on its cartoon-style visuals and comedic elements. Day of the Tentacle has featured regularly in lists of \"top\" games published more than two decades after its release, and aspects have been referenced in popular culture.",
+        "total_rating_count": 169
+    },
+    {
+        "id": 1103,
+        "name": "Super Metroid",
+        "popularity": 10.36142537027928,
+        "rating": 91.53964312926719,
+        "summary": "Super Metroid is an 2D, side-scrolling action-adventure game, which primarily takes place on the fictional planet Zebes—a large, open-ended world with areas connected by doors and elevators. The player controls Samus Aran as she searches the planet for a Metroid that was stolen by Ridley, the leader of the Space Pirates. Samus can run, jump, crouch, and fire a weapon in eight directions; she can also perform other actions, such as wall jumping—jumping from one wall to another in rapid succession to reach higher areas. The \"Moon Walk\" ability, named after the popular dance move of the same name, allows Samus to walk backwards while firing or charging her weapon. The heads-up display shows Samus' health, the supply mode for reserve tanks, icons that represent weapons, and an automap that shows her location and its surroundings.",
+        "total_rating_count": 462
+    },
+    {
+        "id": 14593,
+        "name": "Hollow Knight",
+        "popularity": 62.29504706730481,
+        "rating": 91.4680595271461,
+        "summary": "Hollow Knight is the first game by Team Cherry, an indie games team comprised of 3 people based in South Australia. \n \nHollow Knight is a challenging, beautiful action adventure game set in the vast, inter-connected underground kingdom of Hallownest. A 2D action game with an emphasis on skill and exploration, Hollow Knight has you fighting a fearsome host of deadly creatures, avoiding intricate traps and solving ancient mysteries as you make your own way through fungal wastes, forests of bone, and ruined underground cities. \n \nThe atmosphere is eerie and sometimes unnerving, but there is a good-hearted core of humour and levity in there too, especially when conversing with all of the weird and wonderful NPCs you’ll find along the way. Hollow Knight has beautiful traditional art, fluid and responsive action, challenging but fair gameplay, and an incredible, bizarre insect world begging to be explored and conquered. \nFeatures \n \n - A beautiful, eerie world of insects and heroes. \n - Traditional 2D animation brings creatures and characters to life. \n - Challenging gameplay that can be difficult but always fair. \n - Fluid and responsive action allows you to flow through combat like water. \n - A collection of challenging “feats” the most skilled players can strive for. \n - Find powerful new abilities and spells on your adventure to grow stronger and open new paths. \n - Speak with a weird, intriguing cast of characters. \n - Explore a vast, connected underground world. \n - Scour the world for hidden secrets – powerful artifacts, piles of riches, and surprising encounters. \n - Go Dream Diving! Venture into the minds of friends and enemies and discover the strange worlds that await within. \n - Head to town to seek advice, purchase new items, and chat with quirky townsfolk. \n - Hidden areas full of the toughest challenges and battles, for expert players. \n - Ancient mysteries hidden about the world waiting to be solved by the most observant investigators.",
+        "total_rating_count": 392
+    },
+    {
+        "id": 375,
+        "name": "Metal Gear Solid",
+        "popularity": 12.59033617272673,
+        "rating": 91.3983015926044,
+        "summary": "A third-person story-heavy stealth action title which follows Solid Snake, a special operations soldier, who infiltrates a nuclear weapons facility by the name of Shadow Moses Island to neutralize a renegade special forces unit named FOXHOUND. Throughout his journey, he uncovers various lies and military conspiracies, and his ideas of trust, violence and control are challenged.",
+        "total_rating_count": 775
+    },
+    {
+        "id": 1020,
+        "name": "Grand Theft Auto V",
+        "popularity": 124.4816584555886,
+        "rating": 91.3263125143903,
+        "summary": "The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.",
+        "total_rating_count": 2335
+    },
+    {
+        "id": 22,
+        "name": "System Shock 2",
+        "popularity": 5.012039444405405,
+        "rating": 91.23199215445,
+        "summary": "System Shock 2 is a first-person shooter action role-playing survival horror video game for Microsoft Windows, Apple OS X and Linux. The title was designed by Ken Levine and co-developed by Irrational Games and Looking Glass Studios. Originally intended to be a standalone title, its story was changed during production into a sequel to the 1994 PC game System Shock; the alterations were made when Electronic Arts—who owned the System Shock franchise rights—signed on as publisher. System Shock 2 was released on August 11, 1999, in North America.",
+        "total_rating_count": 158
+    },
+    {
+        "id": 233,
+        "name": "Half-Life 2",
+        "popularity": 23.73489018496397,
+        "rating": 91.18247116405611,
+        "summary": "1998. HALF-LIFE sends a shock through the game industry with its combination of pounding action and continuous, immersive storytelling. \n \nNOW. By taking the suspense, challenge and visceral charge of the original, and adding startling new realism and responsiveness, Half-Life 2 opens the door to a world where the player's presence affects everything around him, from the physical environment to the behaviors even the emotions of both friends and enemies.",
+        "total_rating_count": 1535
+    },
+    {
+        "id": 11208,
+        "name": "NieR: Automata",
+        "popularity": 27.74692962936937,
+        "rating": 91.06689072143149,
+        "summary": "The distant future… \n \nInvaders from another world attack without warning, unleashing a new type of threat: weapons known as “machine lifeforms.” In the face of this insurmountable threat, mankind is driven from Earth and takes refuge on the Moon. \n \nThe Council of Humanity organizes a resistance of android soldiers in an effort to take back their planet. To break the deadlock, the Resistance deploys a new unit of android infantry: YoRHa . \n \nIn the forsaken wasteland below, the war between the machines and the androids rages on. A war that is soon to unveil the long-forgotten truth of this world...",
+        "total_rating_count": 481
+    },
+    {
+        "id": 427,
+        "name": "Final Fantasy VII",
+        "popularity": 16.82526669737688,
+        "rating": 90.99814465500691,
+        "summary": "Set in a dystopian world, Final Fantasy VII's story centers on mercenary Cloud Strife who joins with several others to stop the megacorporation Shinra, which is draining the life of the planet to use as an energy source. As the story progresses, the situation escalates and Cloud and his allies face Sephiroth, the game's main antagonist.",
+        "total_rating_count": 729
+    },
+    {
+        "id": 2207,
+        "name": "Shadow of the Colossus",
+        "popularity": 7.018059166608109,
+        "rating": 90.9947938784764,
+        "summary": "An open-world action/adventure game in which a young wanderer, along with a stolen magical sword and his steed companion, trespasses a cursed land, makes a deal with an ancient being to bring a sacrificial victim back to life, and sets off to fulfill his end of the bargain, which involves tracking down and infiltrating the abodes of sixteen colossi and sacrificing them to achieve his goal.",
+        "total_rating_count": 613
+    },
+    {
+        "id": 7334,
+        "name": "Bloodborne",
+        "popularity": 25.51801882692192,
+        "rating": 90.9332545070055,
+        "summary": "An action RPG in which the player embodies a Hunter who, after being transfused with the mysterious blood local to the city of Yharnam, sets off into a \"night of the Hunt\", an extended night in which Hunters may phase in and out of dream and reality in order to thin the outbreak of abominable beasts that plague the land and, for the more resilient and insightful Hunters, uncover the answers to the Hunt's many mysteries.",
+        "total_rating_count": 690
+    },
+    {
+        "id": 2899,
+        "name": "EarthBound",
+        "popularity": 11.03009861101351,
+        "rating": 90.86786524245991,
+        "summary": "Join Ness, Paula, Jeff, and Poo in a sci-fi turn-based JRPG adventure as they fight a mysterious alien force named Giygas in a quirky land based off of the real world. \n \nEarthBound (known as MOTHER2 in Japan) is a distant sequel to the original EarthBound Beginnings, with many characters, themes, and tunes borrowed from its predecessor. Many of the characters and settings are very similar, but the only explicitly returning character is Giygas, who swears revenge at the end of the first game.",
+        "total_rating_count": 222
+    },
+    {
+        "id": 434,
+        "name": "Red Dead Redemption",
+        "popularity": 16.15659345664265,
+        "rating": 90.80168675164259,
+        "summary": "A modern-day Western epic, Red Dead Redemption takes John Marston, a relic from the fast-closing time of the gunslinger, through an open-world filled with wildlife, mini games and shootouts. Marston sets out to hunt down his old gang mates for the government, who have taken away his family, and meets many characters emblematic of the Wild West, heroism and the new civilization along his journey.",
+        "total_rating_count": 1124
+    },
+    {
+        "id": 26758,
+        "name": "Super Mario Odyssey",
+        "popularity": 31.31318691328529,
+        "rating": 90.5362048019819,
+        "summary": "The game has Mario leaving the Mushroom Kingdom to reach an unknown open world-like setting, like Super Mario 64 and Super Mario Sunshine.",
+        "total_rating_count": 603
+    },
+    {
+        "id": 116,
+        "name": "Star Wars: Knights of the Old Republic",
+        "popularity": 13.25900941346096,
+        "rating": 90.50768419285349,
+        "summary": "Star Wars: Knights of the Old Republic is a role-playing video game developed by BioWare and published by LucasArts. The game's system is based on Wizards of the Coast's Star Wars Roleplaying Game, which is based on the d20 role-playing game system derived from the Third Edition Dungeons & Dragons (D&D) rules. \n \nPlayers choose from three basic character classes at the beginning of the game, and later choose from three Jedi sub-classes. Beyond class, a character has \"skills\" stats, tiered \"feats\", and later on, tiered Force powers, similar to magic spells in fantasy games. Feats and Force powers are unlocked every few level-ups, while the player is given skill points to distribute among their skills every level. \n \nThe game is a part of the Star Wars Legends Universe.",
+        "total_rating_count": 687
+    },
+    {
+        "id": 1221,
+        "name": "Kingdom Hearts II",
+        "popularity": 10.80720753076877,
+        "rating": 90.4318612747919,
+        "summary": "Kingdom Hearts II is an action role-playing game, and the primary entry to the series since the 2002 Disney Interactive and Square collaboration; Kingdom Hearts.\nSora, Donald, and Goofy wake from their slumber and prepare for the journey ahead. They must face Organization XIII, protect the Keyblade’s power, and resume their search for the special people they have lost.\nThe game's setting is a collection of various levels (referred to in-game as \"worlds\") that the player progresses through. As in the first game, it II allows the player to travel to locales from various Disney works, along with original worlds specifically created for the series.",
+        "total_rating_count": 357
+    },
+    {
+        "id": 231,
+        "name": "Half-Life",
+        "popularity": 14.81924697517418,
+        "rating": 90.3573274596968,
+        "summary": "Dr. Gordon Freeman doesn't speak, but he's got a helluva story to tell. This first-person roller-coaster initiated a new era in the history of action games by combining engrossing gameplay, upgraded graphics, ingenious level design and a revolutionary story that may not be all that it seems, told not through cutscenes, but through the visual environment.",
+        "total_rating_count": 1324
+    },
+    {
+        "id": 14,
+        "name": "Fallout 2",
+        "popularity": 6.349385925873874,
+        "rating": 90.3232948386311,
+        "summary": "A turn-based tactical Western RPG in which the Chosen One is tasked with exploring post-nuclear California to locate and retrieve the fabled Garden of Eden Creation Kit for their famine-stricken tribe, while coming into contact through branching dialogue trees with numerous tribes, factions and micro-civilizations, each with their own virtues, vices, socioeconomic situations and political agendas.",
+        "total_rating_count": 409
+    },
+    {
+        "id": 1078,
+        "name": "Super Mario Galaxy 2",
+        "popularity": 7.909623487587088,
+        "rating": 90.30128312783219,
+        "summary": "Prepare for liftoff with Mario and Yoshi! \n \nIn 2007, Super Mario Galaxy took the world of video games by storm. Now this first true Mario sequel in years re-energizes the franchise with new levels and new power-ups. Plus this time Mario gets to team up with his dinosaur buddy Yoshi, who adds new possibilities to the gravity-defying game play. It's everything you love about the first game and more. \n \n* Mario collects stars as he travels from galaxy to galaxy. Every level is new, but the game retains the charm, sense of wonder and beauty in line with Mario's history. Mario works his way through the various levels, sometimes upside-down, sometimes floating from place to place. \n \n* On some stages, Mario can find an egg, smash it open and hop onto the back of Yoshi. Yoshi can use his tongue to grab items and shoot them back at enemies, or to snag attach points and swing across chasms. \n \n* Yoshi has an interesting diet. When he eats a Dash Pepper, he gets so hot and frenzied he can run up steep inclines and vertical walls. When he eats a Blimp Fruit, he inflates like a balloon and floats to new heights. \n \n* New power-ups include a drill that Mario uses to tunnel through the planet's surface all the way to the other side of a planet. \n \n* Skilled players will want to collect new Comet Metals, which will unlock harder levels with even more challenges.",
+        "total_rating_count": 398
+    },
+    {
+        "id": 41,
+        "name": "Deus Ex",
+        "popularity": 43.12641416625676,
+        "rating": 90.2791956805023,
+        "summary": "In this philosophical first-person Western RPG set in a dystopian 2052, JC Denton, a nano-augmented agent for the anti-terrorist organization UNATCO, is tasked with stopping the invasion of Liberty Island by the terrorist group NSF. As events unfold, Denton finds that he plays a large part in a world-spanning conspiracy which forces him to ponder his allegiances, beliefs, morality, and view of right and wrong.",
+        "total_rating_count": 483
+    },
+    {
+        "id": 732,
+        "name": "Grand Theft Auto: San Andreas",
+        "popularity": 37.3312460798934,
+        "rating": 90.2088765112743,
+        "summary": "Returning after his mother's murder to the semi-fictional city of Los Santos (based on Los Angeles), Carl Johnson, a former gang banger, must take back the streets for his family and friends by gaining respect and once again gaining control over the city. However, a story filled with plots, lies and corruption will lead him to trudge the entire state of San Andreas (based on California and Nevada) to get revenge.",
+        "total_rating_count": 1571
+    },
+    {
+        "id": 1074,
+        "name": "Super Mario 64",
+        "popularity": 17.27104885786637,
+        "rating": 90.1872208470073,
+        "summary": "Mario is invited by Princess Peach to her castle, but once he arrives he finds out that Bowser has kidnapped her. Mario has to overcome many challenges and collect Power Stars hidden in the castle's paintings and walls to defeat Bowser and rescue Peach in this seminal 3D platformer.",
+        "total_rating_count": 850
+    },
+    {
+        "id": 184,
+        "name": "Indiana Jones and the Fate of Atlantis",
+        "popularity": 9.91564320978979,
+        "rating": 90.1701439343857,
+        "summary": "A point-and-click adventure game by LucasArts originally released in 1992. Almost a year later, it was reissued on CD-ROM as an enhanced \"talkie\" edition with full voice acting and digitized sound effects. In 2009, this version was also released as an unlockable extra of the Wii action game Indiana Jones and the Staff of Kings, and as a digitally distributed Steam title. The seventh game to use the script language SCUMM, Fate of Atlantis has the player explore environments and interact with objects and characters by using commands constructed with predetermined verbs. It features three unique paths to select, influencing story development, gameplay and puzzles.",
+        "total_rating_count": 228
+    },
+    {
+        "id": 61,
+        "name": "Monkey Island 2: LeChuck's Revenge",
+        "popularity": 10.58431645052402,
+        "rating": 90.16333271897251,
+        "summary": "Wannabe pirate Guybrush Threepwood, and the now zombie pirate LeChuck, return in what has long been considered one of the greatest LucasArts adventure games of all time. \n \nHaving seemingly defeated the evil ghost pirate LeChuck in his first adventure, Guybrush Threepwood sets his sights on the legendary treasure of Big Whoop. But wait, LeChuck is now back in zombie form and he's out for revenge. Guybrush will have to use his wits, his humor and his insatiable desire for adventure to defeat his nemesis once and for all and truly prove himself the greatest pirate in the Caribbean. Voodoo dolls, spitting contests and amusement parks are just some of the challenges Guybrush must overcome as he meets old friends, fights new enemies and uses every ounce of his mojo to overcome the wrath of LeChuck's revenge.",
+        "total_rating_count": 303
+    },
+    {
+        "id": 565,
+        "name": "Uncharted 2: Among Thieves",
+        "popularity": 13.03611833321622,
+        "rating": 90.064912390889,
+        "summary": "In the sequel to Drake's Fortune, Nathan Drake comes across a map that showcases the location of Marco Polo's missing ships. It takes him on a journey to find the infamous Cintamani Stone, and uncover the truth behind it.",
+        "total_rating_count": 1069
+    },
+    {
+        "id": 2262,
+        "name": "Gothic II",
+        "popularity": 8.132514567831834,
+        "rating": 90.02544387802031,
+        "summary": "Gothic II is a role-playing video game and the sequel to Gothic, by the German developer Piranha Bytes. It was first released on November 29, 2002 in Germany, with North America following almost one year later on October 28, 2003. The game was published by JoWooD Entertainment and Atari.",
+        "total_rating_count": 262
+    },
+    {
+        "id": 7344,
+        "name": "Ori and the Blind Forest",
+        "popularity": 31.75896907377478,
+        "rating": 89.9534236603882,
+        "summary": "The forest of Nibel is dying. After a powerful storm sets a series of devastating events in motion, an unlikely hero must journey to find his courage and confront a dark nemesis to save his home. Ori and the Blind Forest tells the tale of a young orphan destined for heroics, through a visually stunning action-platformer crafted by Moon Studios for Xbox One and PC. Featuring hand-painted artwork, meticulously animated character performance, and a fully orchestrated score, Ori and the Blind Forest explores a deeply emotional story about love and sacrifice, and the hope that exists in us all.",
+        "total_rating_count": 554
+    },
+    {
+        "id": 1073,
+        "name": "Super Mario World 2: Yoshi's Island",
+        "popularity": 3.897584043181682,
+        "rating": 89.8431273512897,
+        "summary": "Super Mario World 2: Yoshi's Island or simply Yoshi's Island, known in Japan as Super Mario: Yoshi Island (Japanese: スーパーマリオ ヨッシーアイランド Hepburn: Sūpā Mario: Yosshī Airando?), is a 1995 platform video game developed and published by Nintendo for the Super Nintendo Entertainment System. Acting as a prequel to 1990's Super Mario World, the game casts players as Yoshi as he escorts Baby Mario through 48 levels in order to reunite him with his brother Luigi, who had been kidnapped by Baby Bowser's minions. As a Super Mario series platformer, Yoshi runs and jumps to reach the end of the level while solving puzzles and collecting items. In a style new to the series, the game has a hand-drawn aesthetic and is the first to have Yoshi as its main character. The game introduces his signature abilities to flutter jump, produce eggs from swallowed enemies, and transform into vehicles.",
+        "total_rating_count": 325
+    },
+    {
+        "id": 76882,
+        "name": "Sekiro: Shadows Die Twice",
+        "popularity": 31.75896907377478,
+        "rating": 89.81154627679521,
+        "summary": "\"Carve your own clever path to vengeance in an all-new adventure from developer FromSoftware. \n \nExplore late 1500s Sengoku Japan, a brutal period of constant life and death conflict, as you come face to face with larger than life foes in a dark and twisted world. Unleash an arsenal of deadly prosthetic tools and powerful ninja abilities while you blend stealth, vertical traversal, and visceral head to head combat in a bloody confrontation. \n \nTake Revenge. Restore your honor. Kill Ingeniously.\"",
+        "total_rating_count": 220
+    },
+    {
+        "id": 426,
+        "name": "Final Fantasy VI",
+        "popularity": 6.349385925873874,
+        "rating": 89.7759028071404,
+        "summary": "Part of the Final Fantasy turn-based Japanese RPG franchise, Final Fantasy VI follows an ensemble cast of characters as they attempt to save the their steampunk/fantasy land from the repercussions of the otherworldly campaigns of Emperor Gestahl and his court jester/general Kefka, while trying to resolve their personal issues together and find meaning in their own existence through their tumultuous journey.",
+        "total_rating_count": 382
+    },
+    {
+        "id": 26226,
+        "name": "Celeste",
+        "popularity": 108.2106095977222,
+        "rating": 89.62565401397381,
+        "summary": "A single-player platformer about climbing a mountain. Battle your inner demons and climb through more than 250 devious stages to reach the summit. It won't be easy.",
+        "total_rating_count": 339
+    },
+    {
+        "id": 1092,
+        "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+        "popularity": 2.114455401223724,
+        "rating": 89.5231410404695,
+        "summary": "Donkey Kong Country 2: Diddy's Kong Quest is the sequel to Donkey Kong Country. It was developed by Rare and is one of the best selling Super Nintendo games.",
+        "total_rating_count": 171
+    },
+    {
+        "id": 1627,
+        "name": "Super Smash Bros. Melee",
+        "popularity": 7.018059166608109,
+        "rating": 89.2597125146551,
+        "summary": "A classic and legendary Nintendo title, this game was the number one seller of all time for the Nintendo GameCube. To this day, this game still maintains a very strong competitive following.",
+        "total_rating_count": 401
+    },
+    {
+        "id": 1068,
+        "name": "Super Mario Bros. 3",
+        "popularity": 7.909623487587088,
+        "rating": 89.1960640875009,
+        "summary": "Super Mario Bros. 3 is a platform video game for the Nintendo Entertainment System (NES) video game console. Mario and Luigi embark on a quest to save Princess Toadstool and the rulers of seven different kingdoms from the antagonist Bowser and his children, the Koopalings. The player, as Mario or Luigi, is able to defeat enemies by stomping them or using items that bestow magical powers. Mario and Luigi are given a wider range of abilities than in previous Super Mario games, including flying or sliding down slopes. In addition, Super Mario Bros. 3 introduces numerous elements, such as new enemy characters and the use of a world map to transition between levels, that have reappeared in or have influenced subsequent Mario games.",
+        "total_rating_count": 786
+    },
+    {
+        "id": 230,
+        "name": "StarCraft",
+        "popularity": 6.126494845629129,
+        "rating": 89.1525082474773,
+        "summary": "StarCraft is a strategic game set in a Galaxy far away on multiple planets. It's style and balance between the three antagonistic species it features is unique and appealed to millions.",
+        "total_rating_count": 600
+    },
+    {
+        "id": 1030,
+        "name": "The Legend of Zelda: Majora's Mask",
+        "popularity": 8.578296728321323,
+        "rating": 88.8714167215482,
+        "summary": "After the events of The Legend of Zelda: Ocarina of Time (1998), Link is assaulted by an imp named Skull Kid under the control of the evil Majora's Mask and gets stuck in a troubled land called Termina. Link must repeat the same 3 days, take on the identities of deceased people from other races, collect numerous masks and rid the land of evil to stop Majora from destroying the world in this third-person action/adventure game.",
+        "total_rating_count": 355
+    },
+    {
+        "id": 132,
+        "name": "Warcraft III: Reign of Chaos",
+        "popularity": 7.463841327097598,
+        "rating": 88.8191921934481,
+        "summary": "Warcraft 3: Reign of Chaos is an RTS made by Blizzard Entertainment. Take control of either the Humans, the Orcs, the Night Elves or the Undead, all with different unit types and heroes with unique abilities.Play the story driven single player campaign, go online to play default- or custom maps against people around the world or create your own maps with the map creation tool.",
+        "total_rating_count": 746
+    },
+    {
+        "id": 364,
+        "name": "Heroes of Might and Magic III: The Restoration of Erathia",
+        "popularity": 8.132514567831834,
+        "rating": 88.7631274150167,
+        "summary": "Heroes of Might and Magic III: The Restoration of Erathia is a turn-based strategy game developed by Jon Van Caneghem through New World Computing originally released for Microsoft Windows by the 3DO Company in 1999. Its ports to several computer and console systems followed in 1999-2000. It is the third installment of the Heroes of Might and Magic series. The player can choose to play through seven different campaigns telling the story, or play in a scenario against computer or human opponents.\nThe gameplay is very similar to its predecessors in that the player controls a number of heroes that command an army of creatures inspired by myth and legend. The gameplay is divided into two parts, tactical overland exploration and a turn based combat system. The player creates an army by spending resources at one of the eight town types in the game. The hero will progress in experience by engaging in combat with enemy heroes and monsters. The conditions for victory vary depending on the map, including conquest of all enemies and towns, collection of a certain amount of a resource, or finding the grail artifact.",
+        "total_rating_count": 326
+    },
+    {
+        "id": 2261,
+        "name": "Gothic",
+        "popularity": 7.463841327097598,
+        "rating": 88.701025435318,
+        "summary": "Gothic is a single-player action role-playing video game for Windows developed by the German company Piranha Bytes. It was first released in Germany on March 15, 2001, followed by the English North American release eight months later on November 23, 2001, and the Polish release on March 28, 2002. \n \nGothic has been well received by critics, scoring an average of 80% and 81/100 on Game Rankings' and Metacritic's aggregates, respectively. Reviewers credited the game for its story, complex interaction with other in-game characters, and graphics, but criticized it for the difficult control scheme and high system requirements.",
+        "total_rating_count": 243
+    },
+    {
+        "id": 36926,
+        "name": "Monster Hunter: World",
+        "popularity": 38.22281040087238,
+        "rating": 88.68661403314711,
+        "summary": "Monster Hunter: World sees players take on the role of a hunter that completes various quests to hunt and slay monsters within a lively living and breathing eco-system full of predators…. and prey. In the video you can see some of the creatures you can expect to come across within the New World, the newly discovered continent where Monster Hunter: World is set, including the Great Jagras which has the ability to swallow its prey whole and one of the Monster Hunter series favourites, Rathalos. \n \nPlayers are able to utilise survival tools such as the slinger and Scoutfly to aid them in their hunt. By using these skills to their advantage hunters can lure monsters into traps and even pit them against each other in an epic fierce battle. Can our hunter successfully survive the fight and slay the Anjanath? He’ll need to select his weapon choice carefully from 14 different weapon classes and think strategically about how to take the giant foe down. Don’t forget to pack the camouflaging ghillie suit!",
+        "total_rating_count": 218
+    },
+    {
+        "id": 1715,
+        "name": "Mega Man 2",
+        "popularity": 4.120475123426427,
+        "rating": 88.638695865477,
+        "summary": "The demented Dr. Wily is at it again! This time he's stolen the experimental Time Skimmer and skipped into the future. But Wait! Four of his strongest cyborgs have been left behind to squash the mighty Mega Man! \n \nTime is of the essence as Mega Man and Rush blast past waves of maniacal metal monsters on the way to underground lair of Dr. Wily. Once there they must face Quint, the ferocious fiend from the future!",
+        "total_rating_count": 225
+    },
+    {
+        "id": 126,
+        "name": "Diablo II",
+        "popularity": 9.91564320978979,
+        "rating": 88.6239894814606,
+        "summary": "A top down adventure game of epic proportion. Diablo 2 is the continuation of a wonderful world of magic and horror. - - \"There is no escape from chaos, there is only the sweet release of death\"",
+        "total_rating_count": 667
+    },
+    {
+        "id": 2350,
+        "name": "Mario Kart 8",
+        "popularity": 9.4698610493003,
+        "rating": 88.5048979297656,
+        "summary": "Turn your racing experience upside down! Nintendo’s Mario Kart franchise comes to the Wii U console in full HD, introducing new racing circuit designs and anti-gravity karts that will have players driving upside down. And for the first time, all of Bowser’s seven Koopalings are playable characters-- get a taste of being bad on the race track by playing as Iggy, Larry, Lemmy, Ludwig, Morton, Roy and Wendy. Players will also enjoy a variety of series-favorite features, including the return of 12-player online competitive play, hang-gliders, underwater racing and motorbikes.",
+        "total_rating_count": 330
+    },
+    {
+        "id": 11,
+        "name": "Vampire: The Masquerade - Bloodlines",
+        "popularity": 7.463841327097598,
+        "rating": 88.46652553487542,
+        "summary": "A first- and third-person Western RPG based on the Vampire: The Masquerade tabletop RPG with a heavy emphasis on character building and role-playing, in which the player embodies a fledgling vampire under the guidance of vampire prince Sebastian LaCroix. The player must serve the prince while getting to know the various factions of vampires in Los Angeles and forming their own political views.",
+        "total_rating_count": 351
+    },
+    {
+        "id": 1033,
+        "name": "The Legend of Zelda: The Wind Waker",
+        "popularity": 6.795168086363364,
+        "rating": 88.4568781287023,
+        "summary": "The Legend of Zelda: The Wind Waker is the 10th sequel of the Legend of Zelda action-adventure series. It's the first game of the series to be set on a group of islands in the sea. Therefore, many of Link's actions base on sailing and travelling from island to island, making a baton for controlling the wind the key item of the game. \n \nWind Waker is the first game of the Series with a cel-shaded graphic style. Since fans expected a Zelda game with realistic graphics like being shown at the Space World in 2000, the cel-shading look was critisized and discussed controversial for being too cartoonish.",
+        "total_rating_count": 514
+    },
+    {
+        "id": 11133,
+        "name": "Dark Souls III",
+        "popularity": 17.04815777762162,
+        "rating": 88.4183670138809,
+        "summary": "As fires fade and the world falls into ruin, developer FROMSOFTWARE and director Hidetaka Miyazaki continue their critically-acclaimed and genre-defining series with Dark Souls III. Fans and newcomers alike will get lost in the games hallmark rewarding gameplay and immersive graphics. Now only embers remain…",
+        "total_rating_count": 591
+    },
+    {
+        "id": 974,
+        "name": "Resident Evil 4",
+        "popularity": 12.14455401223724,
+        "rating": 88.3928761125143,
+        "summary": "An atmospheric survival horror game with inventive third-person shooting mechanics set six years after the events of Resident Evil 2 (1998), Resident Evil 4 follows Leon S. Kennedy, a former Raccoon City police officer sent to Spain on a secret mission to retrieve the president's daughter from the hands of a mysterious cult. During his mission, he is forced to battle a mind-controlling parasite and its dehumanized hosts.",
+        "total_rating_count": 794
+    },
+    {
+        "id": 247,
+        "name": "Half-Life 2: Episode Two",
+        "popularity": 7.240950246852853,
+        "rating": 88.3660537993099,
+        "summary": "The second episodic sequel to one of the most influential first-person shooters of its time, Half-Life 2.",
+        "total_rating_count": 705
+    },
+    {
+        "id": 1513,
+        "name": "Pokémon Silver",
+        "popularity": 3.006019722202703,
+        "rating": 88.3532786842542,
+        "summary": "Turn-based JRPGs and sequels to Pokémon Red and Blue Versions (1998), Gold and Silver Versions offer 100 new Pokémon to capture and train, 8 more Gyms to take on and a new Pokémon League challenge. Featuring an expanded post-game, Pokémon Gold and Silver additionally offer extra content from the previous entries in the series.",
+        "total_rating_count": 177
+    },
+    {
+        "id": 17000,
+        "name": "Stardew Valley",
+        "popularity": 27.52403854912463,
+        "rating": 88.3493738777341,
+        "summary": "Stardew Valley is an open-ended country-life RPG! You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town’s most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!",
+        "total_rating_count": 449
+    },
+    {
+        "id": 1514,
+        "name": "Pokémon Crystal",
+        "popularity": 6.572277006118619,
+        "rating": 88.34556561253679,
+        "summary": "Released as a special edition to Pokémon Gold and Silver (1999), Pokémon Crystal added the option to play as a female character, expanded upon the storyline and made slight aesthetic changes to the still-intact core experience of becoming a Pokémon Master.",
+        "total_rating_count": 171
+    },
+    {
+        "id": 7789,
+        "name": "The Binding of Isaac: Rebirth",
+        "popularity": 9.4698610493003,
+        "rating": 88.3299609545642,
+        "summary": "The Binding of Isaac: Rebirth is a top down, procedurally-generated rougelike game, remade based on the original game The Binding of Isaac. You play as Isaac, a little boy who is chased to the basement by his mother who intends to kill Isaac for her savior. You explore different levels, collect items and try to defeat your mother.. and whatever other evil awaits you. If you die, you restart with none of your items you collected, and you must explore the basement and beyond again.",
+        "total_rating_count": 272
+    },
+    {
+        "id": 2909,
+        "name": "The Legend of Zelda: A Link Between Worlds",
+        "popularity": 5.68071268513964,
+        "rating": 88.32660783440821,
+        "summary": "The Legend of Zelda: A Link Between Worlds is the first Zelda game made exclusively for the Nintendo 3DS is set in the fan-favorite world of The Legend of Zelda: A Link to the Past. A daring adventure awaits Link in Hyrule, where he can use his new ability to become a “drawing” and move along walls of dungeons. This opens up ways to explore and puzzle elements that give Link access to locations he could not otherwise reach.",
+        "total_rating_count": 364
+    },
+    {
+        "id": 8197,
+        "name": "Tetris",
+        "popularity": 5.23493052465015,
+        "rating": 88.2996363013144,
+        "summary": "Tetris is a tile-matching puzzle video game. The goal is to place pieces made up of four tiles in a ten-by-twenty well, organizing them into complete rows, which then disappear. The main objective of each round is to clear 25 lines, after which the player moves on to the next round. If the stack reaches the top of the field, the player loses a life, and if all three lives are lost, the game is over. \n \nThe game lets the player choose the starting stage and round, as well as one of three background tunes. Difficulty is increased throughout the stages by an increase in speed and the addition of garbage blocks in the well.",
+        "total_rating_count": 635
+    },
+    {
+        "id": 39,
+        "name": "Mafia",
+        "popularity": 9.91564320978979,
+        "rating": 88.2941562969601,
+        "summary": "Thomas \"Tommy\" Angelo, a taxi driver living in the 1930s in Lost Heaven (based on San Francisco and Chicago), enters a mafia gang led by Don Salieri and gets mixed up in a storyline including many plots, robberies and assassinations, later deciding to become an informant against the mob. Driven by third-person gunplay, realistic driving mechanics and advanced graphics, Mafia immerses the player into a real-world mobster story. \n \nMafia contains a much bigger city to explore than most video games of the time, with multiple forms of available transport in addition to an expansive countryside. The game received positive reviews for the Windows version, with critics praising the game as a more realistic and serious Grand Theft Auto-styled game.",
+        "total_rating_count": 638
+    },
+    {
+        "id": 421,
+        "name": "Final Fantasy IX",
+        "popularity": 9.024078888810811,
+        "rating": 88.292477510431,
+        "summary": "The ninth installment in the long-running RPG series and the final for the original PlayStation, Final Fantasy IX gives fans of the franchise the nostalgic thrill of re-experiencing the visual style, gameplay elements and overall spirit of the 16-bit Final Fantasy games of the 8/16 bit eras. The main story centers on Zidane Tribal, a young thief who quickly becomes engaged in a quest to save the world, along with Vivi Ornitier, a young black mage, and Princess Garnet, heir to the throne of Alexandria. The game features detailed polygonal character models and lush pre-rendered backgrounds. They all combine for an unforgettable adventure!",
+        "total_rating_count": 417
+    },
+    {
+        "id": 239,
+        "name": "StarCraft II: Wings of Liberty",
+        "popularity": 12.81322725297147,
+        "rating": 88.21427236372881,
+        "summary": "In the distant future, in the darkest reaches of space, the ghosts of the past whisper your name. You are Jim Raynor, a marshal-turned-rebel on a vigilante crusade to bring down the Dominion and its nefarious leader, Arcturus Mengsk. Haunted by betrayal and remorse, some believe you may have given up the fight. But you have promises to keep… and a need for vengeance that’s long overdue.",
+        "total_rating_count": 528
+    },
+    {
+        "id": 472,
+        "name": "The Elder Scrolls V: Skyrim",
+        "popularity": 34.65655311695646,
+        "rating": 88.1841407594314,
+        "summary": "The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.  \n \nPlay any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before.  \n \nSkyrim’s new game engine brings to life a complete virtual world with rolling clouds, rugged mountains, bustling cities, lush fields, and ancient dungeons.  \n \nChoose from hundreds of weapons, spells, and abilities. The new character system allows you to play any way you want and define yourself through your actions.  \n \nBattle ancient dragons like you’ve never seen. As Dragonborn, learn their secrets and harness their power for yourself.",
+        "total_rating_count": 1901
+    },
+    {
+        "id": 118,
+        "name": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+        "popularity": 5.457821604894895,
+        "rating": 88.17096384104049,
+        "summary": "Star Wars Knights of the Old Republic II: The Sith Lords is a sequel to the blockbuster RPG Star Wars Knights of the Old Republic. Players continue to enjoy the title's emotionally compelling and story-driven theme, additions to features such as new characters, classes, locations and force powers as well as a deeper look into the founding lore.",
+        "total_rating_count": 416
+    },
+    {
+        "id": 7603,
+        "name": "Hellblade: Senua's Sacrifice",
+        "popularity": 17.27104885786637,
+        "rating": 88.1516641177219,
+        "summary": "On Hellblade, we will double down on what we do best to give you a deeper character in a twisted world with brutal, uncompromising, combat. \n \nWe are embracing the creative spirit that comes with independence without letting go of the stunning production values that we are known for. It’s not indie, it’s not AAA. This is a third way. its independent AAA. \n \nIt’s about making a more focused game experience that isn’t trying to be all things to all people but satisfies a particular gaming itch. It’s about being in command of our creativity so that we can give you what you want from us at a lower price. \n \nIt’s very early days in the project but we are opening our doors and inviting you to join us every step of the way. We want to show you how we make this game warts and all so that you can be part of this journey. \n \nThe game is dedicated to our fans and supporters.",
+        "total_rating_count": 390
+    },
+    {
+        "id": 90101,
+        "name": "Super Smash Bros. Ultimate",
+        "popularity": 30.8674047527958,
+        "rating": 88.0925449674413,
+        "summary": "Legendary game worlds and fighters collide in the ultimate showdown—a new entry in the Super Smash Bros. series for the Nintendo Switch system! New fighters, like Inkling from the Splatoon series and Ridley from the Metroid series, make their Super Smash Bros. series debut alongside every Super Smash Bros. fighter in the series…EVER! Faster combat, new items, new attacks, new defensive options, and more will keep the battle raging whether you’re at home or on the go.",
+        "total_rating_count": 341
+    },
+    {
+        "id": 19565,
+        "name": "Marvel's Spider-Man",
+        "popularity": 54.71675033898349,
+        "rating": 87.9955286078578,
+        "summary": "Starring the world’s most iconic Super Hero, Spider-Man features the acrobatic abilities, improvisation and web-slinging that the wall-crawler is famous for, while also introducing elements never-before-seen in a Spider-Man game. From traversing with parkour and utilizing the environment, to new combat and blockbuster set pieces, it’s Spider-Man unlike any you’ve played before.",
+        "total_rating_count": 490
+    },
+    {
+        "id": 1077,
+        "name": "Super Mario Galaxy",
+        "popularity": 7.463841327097598,
+        "rating": 87.9744425602358,
+        "summary": "Experience a gravity-defying adventure! \n \nBecome Mario as he traverses gravity-bending galaxies, traveling in and out of gravitational fields by blasting from planet to planet. Players experience dizzying perspective shifts as they run upside down through wild alien worlds that need to be seen to be believed. Whether you're surfing on a ray across an ocean in the clouds, rolling on a ball through a treacherous garden, or floating in a bubble over a poisonous swamp, there's no limit to the cosmic challenges you'll encounter! \n \n* Shake it! Controlling Mario is as simple as can be with the Wii Remote and Nunchuk. Move Mario with the Control Stick and shake the Wii Remote to perform a spin move or cue Ring Stars that launch you to and from planetary objects. You can even point at bits of stardust to collect them or latch onto Beam Stars to blaze a magnetic trail through the heavens. \n \n* Mario can run, tiptoe, jump, triple-jump, backflip, and long-jump, but what he'll do most is spin. By shaking the Wii Remote, players make Mario spin around with fists outstretched, allowing him to pummel enemies and cue Star Rings that launch him from planet to planet. \n \n* He can also find plenty of power-ups: A Bee Mushroom turns him into Bee Mario, allowing him to fly for short periods of time and cling to honeycombs. A Boo Mushroom turns him into Boo Mario, allowing him to float and turn invisible to pass through mesh gates. \n \n* He'll constantly collect bits of stardust. These can be fired at enemies using the B Button. A second player can even take on this role, using a second Wii Remote to stall enemies, fire stardust, or even sweep aside projectiles.",
+        "total_rating_count": 474
+    },
+    {
+        "id": 9600,
+        "name": "Shin Megami Tensei: Persona 4",
+        "popularity": 6.126494845629129,
+        "rating": 87.96905514832571,
+        "summary": "Shin Megami Tensei: Persona 4 is the fourth main entry of the Persona series. Which is a spin off series of the Shin Megami Tensei series. Starting with Persona 3, the series became popular for its combination of traditional RPG mechanics, and social simulation gameplay. By day the player attends high school. By night the game becomes a dungeon crawling turn based RPG. In Persona 4 the player assumes the role of the player-named protagonist who has transferred to a new school in the fictional rural Japanese town of Inaba. The protagonist gains the ability to summon Personas, a power that allows the protagonist to fight Shadows, the enemies of the game. \n \nLike Persona 3, Persona 4 requires the player to manage their time wisely. As most actions in the game will result in time advancing. Passage of time is not based on how long the player takes to do their actions. Once the player has chosen what they will do, time will pass. When time passes it simply skips to the next part of the day. Each day is split into multiple parts: Early Morning, Morning, Lunch, Daytime, Afternoon, After School, and the Evening. Players can choose to spend time with friends, study, read books, fish, and many other side activities. Note that shopping does not cause time to pass. \n \nOn schooldays the player attends school, where there is usually a lecture about random factoids of real life that you will be quizzed on. Getting these questions right or wrong does not effect the main story, but raises the characters Knowledge social stat, which can be used to unlock dialogue options in some cutscenes, and get higher test scores. Other social stats, include: Understanding, Courage, Expression, and Diligence. Each of these stats have many various effects on the players side activities. Some social links require certain levels of social stats. Increasing your social stats can unlock more part time jobs for the player to earn more money. After school and on weekends the player chooses what to do with their free time, \n \nAt night, the player can traverse dungeons. Where they will fight many different types of Shadows. The combat is very similar to any traditional turn based Japanese RPG game. Persona 4 uses a combat system akin to the Shin Megami Tensei: Nocturne \"Press Turn\" system. In which the player can take advantage of the enemies weaknesses to gain extra turns. If the player attacks an enemy with an element that enemy is weak to, the player gains an extra turn to attack. However, repeating that attack on the same enemy will not give the character a second extra turn. \n \nThe game features a very complex but easy to use fusing system. The player selects multiple personas to fuse together to create a new persona that can sometimes carry over some of the base personas skills. Later into the game the player can unlock Special Fusions to create Peronas that are very powerful. \n \nSocial Links are one of the key mechanics in this game. Social Links are a measure of the friendship between the protagonist and the many characters of Persona 4. This feature gives your fused Personas bonus experience upon their creation, and allow you to learn new skills and abilities in battle. Social Links also open up romantic relationship options with a few of the games female characters. Social Links play out as the normal cutscenes in the game that provide more character development for the huge cast of characters. There are 24 Social Links in total, each one has a respective Arcana. All Personas have an assigned Arcana. Having a Persona of the same Arcana of a Social Link doubles the rate that you level that Social Link. \n \nPersona 4's plot is closely tied to the weather, thus the player can check the ingame weather forecast. Weather has various effects on the game, on rainy days if the player chooses to study they will gain more Knowledge points than normal. The most essential part of the weather forecast is recognizing when the town will become foggy, as this is an indication of when the player must finish the dungeon they are currently exploring. If the player fails to complete a dungeon before a foggy day the game rolls the calender back one week. The fog sets in after 2 or more rainy days.",
+        "total_rating_count": 159
+    },
+    {
+        "id": 376,
+        "name": "Metal Gear Solid 2: Sons of Liberty",
+        "popularity": 4.566257283915917,
+        "rating": 87.9509142943722,
+        "summary": "This third-person stealth action game, sequel to Metal Gear Solid (1998), follows Solid Snake and Otacon through various incidents as they strive to destroy nuclear terror threats around the world. When the president of the United States is captured inside the oil cleanup facility Big Shell, a rookie agent infiltrates the facility while the player is forced to doubt their perception of trust, knowledge and reality.",
+        "total_rating_count": 416
+    },
+    {
+        "id": 551,
+        "name": "God of War II",
+        "popularity": 15.04213805541892,
+        "rating": 87.93076692231651,
+        "summary": "Kratos is now the God of War, having defeated the Olympian god Ares. Shunned by the other gods and still haunted by nightmares from his past, Kratos decides to join an army of Spartans in an attack on the city of Rhodes. Kratos also ignores a warning from the goddess Athena that his lust for revenge is alienating the other gods.",
+        "total_rating_count": 529
+    },
+    {
+        "id": 7386,
+        "name": "The Talos Principle",
+        "popularity": 26.18669206765616,
+        "rating": 87.8981123518468,
+        "summary": "The Talos Principle is a philosophical first-person puzzle game from Croteam, the creators of the legendary Serious Sam series, written by Tom Jubert (FTL, The Swapper) and Jonas Kyratzes (The Sea Will Claim Everything).",
+        "total_rating_count": 183
+    },
+    {
+        "id": 4438,
+        "name": "Sonic the Hedgehog 2",
+        "popularity": 4.789148364160662,
+        "rating": 87.89427890635841,
+        "summary": "Dr. Eggman (aka Dr. Robotnik) has returned, turning helpless animals into robots and forcing them to build his ultimate weapon, the Death Egg! But this time, Sonic has a friend that can help him: Tails! Find the 7 Chaos Emeralds and stop Dr. Robotnik’s evil scheme!",
+        "total_rating_count": 294
+    },
+    {
+        "id": 20,
+        "name": "BioShock",
+        "popularity": 19.72285074055856,
+        "rating": 87.8763192944006,
+        "summary": "Set in the Objectivist underwater dystopia of Rapture in the '60's, Bioshock is a first-person shooter with the premise of arming and genetically modifying yourself in order to survive against the city's resident great minds-turned-maddened anomalies and aid Atlas in his mission to overthrow the city's cruel ruler, Andrew Ryan.",
+        "total_rating_count": 1427
+    },
+    {
+        "id": 733,
+        "name": "Grand Theft Auto: Vice City",
+        "popularity": 33.76498879597748,
+        "rating": 87.7065309558105,
+        "summary": "In the year 1986, Tommy Vercetti is heavily indebted to his mafia superiors after a drug deal gone awry, but his dreams of taking over Vice City (based on Miami) push him down a different path. Featuring a wide variety of vehicles and weapons, radio stations playing hit songs from the era and an intense atmosphere, GTA: Vice City is an open-world sandbox satire of '80's Miami.",
+        "total_rating_count": 1272
+    },
+    {
+        "id": 71,
+        "name": "Portal",
+        "popularity": 14.37346481468469,
+        "rating": 87.63214926545001,
+        "summary": "Waking up in a seemingly empty laboratory, the player is made to complete various physics-based puzzle challenges through numerous test chambers in order to test out the new Aperture Science Handheld Portal Device, without an explanation as to how, why or by whom.",
+        "total_rating_count": 1668
+    },
+    {
+        "id": 127,
+        "name": "Assassin's Creed II",
+        "popularity": 18.60839533933484,
+        "rating": 87.6050607951497,
+        "summary": "Discover an intriguing and epic story of power, revenge and conspiracy set during a pivotal moment in history: the Italian Renaissance. \nExperience the freedom and immersion of an all new open world and mission structure with settings such as the rooftops and canals of beautiful Venice. Your options in combat, assassination and escape are vast, with many new weapons, settings and gameplay elements.",
+        "total_rating_count": 1389
+    },
+    {
+        "id": 295,
+        "name": "Command & Conquer: Red Alert",
+        "popularity": 4.789148364160662,
+        "rating": 87.5917903230321,
+        "summary": "Travel to an alternate universe where dark experiments have permanently altered time. Or have they? Soviet tanks crush city after city while Allied cruisers shell bases. Spies lurk, landmines await, and strange new technologies aid both sides in the struggle for ultimate control. In this parallel reality, the mighty Soviet Empire has begun to “liberate” all of Europe. Cities fall and countries collapse before the overwhelming might of the Red Storm. The Allies are scrambling to meet the onslaught, but they have been caught by surprise. Red Alert puts the fate of the world in your hands!",
+        "total_rating_count": 175
+    },
+    {
+        "id": 245,
+        "name": "Command & Conquer: Red Alert 2",
+        "popularity": 4.566257283915917,
+        "rating": 87.5697523747475,
+        "summary": "The Soviets are back and this time they’re on American soil. Fight for the red, white, and blue – or just the red. But be careful – the mystical madman Yuri, with his mysterious mind-control technology, is readying his army for a shot at world domination.Fight on the side of freedom or battle behind the Iron Curtain. Prism tanks, Tesla Troopers, Terror Drones, Desolators, Psychic Mind Control Giant Squid, and Sonic Dolphins are just a small part of your arsenal. Play either side in the full solo-play campaign or as one of the nine nations in eight modes of multiplayer.",
+        "total_rating_count": 194
+    },
+    {
+        "id": 501,
+        "name": "Batman: Arkham City",
+        "popularity": 28.4156028701036,
+        "rating": 87.49202140558779,
+        "summary": "After the events of Batman: Arkham Asylum (2009), a section of the city of Gotham has been turned into a prison, designed to keep the scum of the city away from the people. Bruce Wayne protests this prison but is shortly kidnapped by the despicable Hugo Strange, thus having to face the city's most powerful villains as the Batman while trying to uncover Strange's plans.",
+        "total_rating_count": 1191
+    },
+    {
+        "id": 7342,
+        "name": "INSIDE",
+        "popularity": 33.76498879597748,
+        "rating": 87.4380370484346,
+        "summary": "An atmospheric 2D side-scroller in which, hunted and alone, a boy finds himself drawn into the center of a dark project and struggles to preserve his identity.",
+        "total_rating_count": 672
+    },
+    {
+        "id": 12517,
+        "name": "Undertale",
+        "popularity": 33.09631555524324,
+        "rating": 87.35529690492511,
+        "summary": "A small child falls into the Underground, where monsters have long been banished by humans and are hunting every human that they find. The player controls the child as they try to make it back to the Surface through hostile environments, all the while engaging with a turn-based combat system with puzzle-solving and bullet hell elements, as well as other unconventional game mechanics.",
+        "total_rating_count": 702
+    },
+    {
+        "id": 73,
+        "name": "Mass Effect",
+        "popularity": 13.70479157395045,
+        "rating": 87.30837539207849,
+        "summary": "What starts as a routine mission to an agrarian outpost quickly becomes the opening salvo in an epic war. As the newly appointed Executive Officer of the SSV Normandy, you'll assemble and lead an elite squad of heroes into battle after heart-pounding battle. Each decision you make will impact not only your fate, but the destiny of the entire galaxy in the Mass Effect trilogy. \n \nKey Features: \n \nIncredible, interactive storytelling. Create and customize your own character, from Commander Shepard's appearance and skills to a personalized arsenal. Unleash devastating abilities as you command and train. Your decisions will control the outcome of each mission, your relationships with your crew and ultimately the entire war. \n \nAn amazing universe to explore. From the massive Citadel to the harsh, radioactive landscape of the Krogan home world – the incredible breadth of the Mass Effect universe will blow you away. Travel to the farthest outposts aboard the SSV Normandy, the most technologically advanced ship in the galaxy. You'll follow the clues left by ancient civilizations, discover hidden bases with fantastic new tech and lead your hand-picked crew into explosive alien battles. \n \nEdge-of-your-seat excitement meets strategic combat. Find the perfect combination of squad-mates and weapons for each battle if you want to lead them to victory. Sun-Tzu's advice remains as pertinent in 2183 as it is today – know your enemy. You'll need different tactics for a squad of enemies with devastating biotic attacks than a heavily armored Geth Colossus so choose your teams wisely.",
+        "total_rating_count": 1307
+    },
+    {
+        "id": 500,
+        "name": "Batman: Arkham Asylum",
+        "popularity": 16.82526669737688,
+        "rating": 87.2970002701565,
+        "summary": "Using a great variety of gadgets you must make your way around the island, and the asylums halls to find and stop the joker. The game uses a 3-button combat system, but with a great number of gadget abilites which Batman can unlock. This makes for a very cinematic combat experience when fighting the Joker's goons.",
+        "total_rating_count": 1345
+    }
+]
