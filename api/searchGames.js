@@ -3,7 +3,11 @@ const userKey = process.env.API_KEY
 const axios = require('axios').default
 const fs = require('fs')
 
-axios({
+
+// This way of making an export possible is from the video listed below
+// SOURCE: https://www.youtube.com/watch?v=ZbtZ_79UmjI
+const axiosApiCall = (cb) => {
+    axios({
         url: "https://api-v3.igdb.com/games",
         method: 'POST',
         headers: {
@@ -29,5 +33,7 @@ axios({
     .catch(err => {
         console.error(err)
     })
+}
 
-module.exports = axios
+
+module.exports = axiosApiCall
