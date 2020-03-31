@@ -72,6 +72,19 @@ router
             res.status(400).send(err)
         }
     })
+    // Logout, filter user token and return true if any tokens of is not equal to the token of the loggedin user
+    .get('/logout', auth, async (req, res) => {
+        try {
+            req.user.tokens = req.user.tokens.filter((token) => {
+                return token.token != req.token
+            })
+            await req.user.save()
+            res.clearCookie('dating_token')
+            res.redirect('/login')
+        } catch (err) {
+            res.status(500).send(err)
+        }
+    })
 
 
 module.exports = router
