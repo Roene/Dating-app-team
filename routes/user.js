@@ -22,6 +22,38 @@ const upload = multer({ storage: storage })
 
 router
     .get('/', auth, (req, res)  => {res.render('pages/index')})
+    .get('/search', auth, (req, res) => {
+
+
+      let searchValue = req.query
+
+      Object.keys(searchValue).forEach(function (key) {
+        if(!searchValue[key] || key == "save"){
+          delete searchValue[key];
+      }
+    });
+
+    console.log(searchValue)
+      let users;
+
+      users = User.find({
+        firstname: req.query.playerName,
+        gender: req.query.gender,
+        age: { $gte: req.query.ageMin, $lte: req.query.ageMax },
+        favorite: req.query.gameName
+      })
+
+
+      users
+      .then((users) => {
+        try{
+          console.log(users)
+          res.render(('pages/search'), {users, dataTop100})
+        } catch (err) {
+          res.status(500).send(err)
+        }
+    })
+})
     .get('/signup', (req, res)  => {res.render('pages/signup', {dataTop100})})
     .get('/login', (req, res)   => {res.render('pages/login')})
     .get('/games', (req, res)   => {res.render('pages/games', {dataTop100})})

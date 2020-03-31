@@ -9,7 +9,7 @@ const dbconnection  = require('./db/db')
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, //Limit to 100 each IP adres
+  max: 300, //Limit to 100 each IP adres
   message: "Teveel request vanaf dit adres. Voor dev: verander in index.js het max aantal in const limiter"
 })
 
