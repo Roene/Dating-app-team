@@ -5,6 +5,8 @@ const rateLimit     = require("express-rate-limit")
 const userRoute     = require('./routes/user')
 const profileRoute  = require('./routes/profile')
 const dbconnection  = require('./db/db')
+const axios         = require('./api/searchGames')
+
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes

@@ -11,12 +11,12 @@ axios({
             'user-key': userKey
         }, 
         // "where parent_game = n & version_parent = n & themes != (42)" Is from the developer of the algorithm.
-        // This is an easy way to approach the real algorithm. Source is the IGDB discord, in their #api channel
+        // This is an easy way to approach the real algorithm. Source is the IGDB discord, in their #api channelby user "⚔ Loefvet | IGDB", a developer for IGDB
         data: "fields name,id,rating,popularity,summary,total_rating_count,screenshots.*; where parent_game = n & version_parent = n & themes != (42) & rating_count > 150; sort rating desc; limit 100;"
     })
     .then(response => {
         const topGames = JSON.stringify(response.data, null, 4) //(response.data, null, 6)
-        fs.writeFile('../api/outputGames.json', topGames, (err) => {
+        fs.writeFile('./api/outputGames.json', topGames, (err) => {
             if (err) {
                 console.log('An error occured while writing the JSON file')
                 console.log(err)
@@ -29,3 +29,5 @@ axios({
     .catch(err => {
         console.error(err)
     })
+
+module.exports = axios
