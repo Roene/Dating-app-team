@@ -9,8 +9,6 @@ background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,8,116,1) 29%, rgba(9,9,121
 }
 
 /* /////////////// SIDEBAR /////////////// */
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-
 .fa-2x {
 font-size: 2em;
 }
