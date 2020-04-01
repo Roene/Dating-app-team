@@ -24,25 +24,46 @@ router
     .get('/', auth, (req, res)  => {res.render('pages/index')})
     .get('/search', auth, (req, res) => {
 
-
       let searchValue = req.query
+      searchAge = searchValue.age = {$gte: req.query.ageMin || 18, $lte: req.query.ageMax || 126}
+      let users
 
       Object.keys(searchValue).forEach(function (key) {
-        if(!searchValue[key] || key == "save"){
-          delete searchValue[key];
-      }
-    });
 
-    console.log(searchValue)
-      let users;
 
-      users = User.find({
-        firstname: req.query.playerName,
-        gender: req.query.gender,
-        age: { $gte: req.query.ageMin, $lte: req.query.ageMax },
-        favorite: req.query.gameName
-      })
+        switch(key){
+          case "firstname" :
+          const nameCapitalized = searchValue[key].charAt(0).toUpperCase() + searchValue[key].slice(1)
+          searchValue[key] = nameCapitalized
+          break
+          case "age" :
+          break
+          case "gender" :
+          case "favorite" :
+          break
+          case "ageMin":
+          case "ageMax":
+          case "save" :
+          default :
+          delete searchValue[key]
+          return;
+  }
 
+        switch(searchValue[key]){
+          case '' :
+          case undefined :
+          case null :
+          case isNaN() :
+          delete searchValue[key]
+          break
+          default :
+          break
+}
+})
+
+console.log(searchValue)
+
+      users = User.find(searchValue)
 
       users
       .then((users) => {

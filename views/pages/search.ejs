@@ -6,8 +6,8 @@
 <h1>Hello search</h1>
 <form class="searchForm" action="/search" method="GET">
   <fieldset>
-    <label for="playerName">Kies hier jouw title</label>
-      <input type="text" name="playerName">
+    <label for="firstname">Kies hier jouw title</label>
+      <input type="text" name="firstname">
       <select name="gender">
         <option value="">Selecteer je geslacht:</option>
         <option value="man"     >Man</option>
@@ -18,8 +18,8 @@
     <input type="number" id="ageMin" name="ageMin" min="18" max="126" value="18">
     <label for="ageMax">Age min:</label>
     <input type="number" id="ageMax" name="ageMax" min="18" max="126" Value="99">-->
-    <label for="gameName">Kies hier jouw favoriete game</label>
-    <select name="gameName" id="gameName" size="15">
+    <label for="favorite">Kies hier jouw favoriete game</label>
+    <select name="favorite" id="favorite" size="15">
       <% for (x=0; x < dataTop100.length; x++) { %>
       <option value="<%= dataTop100[x].name %>"><%= dataTop100[x].name %></option>
       <% } %>
