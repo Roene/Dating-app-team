@@ -4,10 +4,8 @@ const multer    = require('multer')
 const validator = require('validator')
 // OWN FILES
 const User          = require('../models/user')
-const postGamesDD   = require('../api/FavGame')
 const auth          = require('../middleware/auth')
 const dataTop100    = require('../api/outputGames.json')
-
 
 const storage   = multer.diskStorage({
     destination: (req, file, callback) => {
@@ -77,8 +75,6 @@ console.log(searchValue)
 })
     .get('/signup', (req, res)  => {res.render('pages/signup', {dataTop100})})
     .get('/login', (req, res)   => {res.render('pages/login')})
-    .get('/games', (req, res)   => {res.render('pages/games', {dataTop100})})
-    .post('/games', postGamesDD)
      // SOURCE : https://medium.com/swlh/jwt-authentication-authorization-in-nodejs-express-mongodb-rest-apis-2019-ad14ec818122
      // Login expects the user fill in an email and password, if user is found create a token and redirect the user to the index.
      .post('/login', async (req, res) => {
@@ -127,6 +123,19 @@ console.log(searchValue)
             res.redirect('/login')
         } catch (err) {
             res.status(400).send(err)
+        }
+    })
+    // Logout, filter user token and return true if any tokens of is not equal to the token of the loggedin user
+    .get('/logout', auth, async (req, res) => {
+        try {
+            req.user.tokens = req.user.tokens.filter((token) => {
+                return token.token != req.token
+            })
+            await req.user.save()
+            res.clearCookie('dating_token')
+            res.redirect('/login')
+        } catch (err) {
+            res.status(500).send(err)
         }
     })
 
