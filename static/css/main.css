@@ -1,16 +1,56 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  font-family: 'Proza Libre', sans-serif;
-}
 
+/* /////////////// GENERAL /////////////// */
 html {
-    height: 100%;
+height: 100%;
 }
 
 body {
-    background: linear-gradient(225deg, rgba(83,5,101,1) 0%, rgba(210,134,218,1) 50%, rgba(75,182,193,1) 67%, rgba(0,255,235,1) 100%);
-    background-attachment: fixed;
+background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,8,116,1) 29%, rgba(9,9,121,1) 32%, rgba(0,212,255,1)) fixed;
+margin: 0;
 }
+
+/* /////////////// SIDEBAR /////////////// */
+.main-menu {
+left: 0;
+top: 0;
+width: 200px;
+background-color: #f1f1f1;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+
+.main-menu a {
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
+}
+
+.main-menu a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+
+main {
+margin-left: 200px;
+padding: 1px 16px;
+}
+
+@media screen and (max-width: 700px) {
+.main-menu {
+width: 100%;
+height: auto;
+position: fixed;
+}
+.main-menu a {float: left;}
+main {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+.main-menu a {
+text-align: center;
+float: none;
+}
+}
+>>>>>>> development
