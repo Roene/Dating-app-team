@@ -34,6 +34,39 @@ In this project we wanted to complete a lot of things for our prototype. Here yo
 - [ ] User can have a private chat with other user
 
 ## Install
+If you want to run this project on your own device you have to follow our steps. 
+
+First you need to make a database we use MongoDB cloud. You can make free account if you follow this [guide](https://www.mongodb.com/cloud/atlas). If you have created your database we can go to te next step. 
+
+The next step is to make an account on the [IGDB API](https://api.igdb.com/) website. Because we use this external API you have to get a API key from here to use our project.
+
+Now you have your database and API key it is time to clone this project. Go to your terminal and go to the folder where you want to have this project, then you have to do this 
+```
+git clone https://github.com/Roene/Dating-app-team.git
+```
+Now you have cloned the project you have to go to the folder by doing this
+```
+cd Dating-app-team
+```
+Now you have the project on your device. Next step is to install the **node_modules** by running this command
+```
+npm install
+```
+Now you have all the packages to run this project. The last step is to create a file named **.env**, in here you have to put the following key values
+```
+MONGODB_URI=<URL to database>
+JWT_KEY=<Random text>
+API_KEY=<API key>
+```
+
+Now it is time to run the project, you can do this by using this command
+```
+npm test
+```
+**OR**
+```
+npm start
+```
 
 ## Routes
 
