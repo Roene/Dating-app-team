@@ -57,14 +57,14 @@ router
   }
   })
   
-  console.log(searchValue)
+//   console.log(searchValue)
   
         users = User.find(searchValue)
   
         users
         .then((users) => {
           try{
-            console.log(users)
+            // console.log(users)
             res.render(('pages/index'), {users, dataTop100})
           } catch (err) {
             res.status(500).send(err)
@@ -111,7 +111,7 @@ router
 }
 })
 
-console.log(searchValue)
+// console.log(searchValue)
 
       users = User.find(searchValue)
 
