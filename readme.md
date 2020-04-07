@@ -8,6 +8,11 @@ This is a prototype dating app for the Hogeschool of Amsterdam, CMD blok Tech 20
 We combined our features to a working protorype, this prototype is for gamers where you can make your own profile by filling in your personal details en select your favorite game from a list of top 100 games. 
 
 ## Table of contents
+1. [To-Do](#to-do)
+2. [Install](#install)
+3. [Topics](#topics)
+4. [Packages](#packages)
+5. [License](#license)
 
 ## To-do
 
