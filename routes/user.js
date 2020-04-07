@@ -20,6 +20,59 @@ const upload = multer({ storage: storage })
 
 router
     .get('/', auth, (req, res)  => {res.render('pages/index')})
+    .get('/search', auth, (req, res) => {
+
+      let searchValue = req.query
+      searchAge = searchValue.age = {$gte: req.query.ageMin || 18, $lte: req.query.ageMax || 126}
+      let users
+
+      Object.keys(searchValue).forEach(function (key) {
+
+
+        switch(key){
+          case "firstname" :
+          const nameCapitalized = searchValue[key].charAt(0).toUpperCase() + searchValue[key].slice(1)
+          searchValue[key] = nameCapitalized
+          break
+          case "age" :
+          break
+          case "gender" :
+          case "favorite" :
+          break
+          case "ageMin":
+          case "ageMax":
+          case "save" :
+          default :
+          delete searchValue[key]
+          return;
+  }
+
+        switch(searchValue[key]){
+          case '' :
+          case undefined :
+          case null :
+          case isNaN() :
+          delete searchValue[key]
+          break
+          default :
+          break
+}
+})
+
+console.log(searchValue)
+
+      users = User.find(searchValue)
+
+      users
+      .then((users) => {
+        try{
+          console.log(users)
+          res.render(('pages/search'), {users, dataTop100})
+        } catch (err) {
+          res.status(500).send(err)
+        }
+    })
+})
     .get('/signup', (req, res)  => {res.render('pages/signup', {dataTop100})})
     .get('/login', (req, res)   => {res.render('pages/login')})
      // SOURCE : https://medium.com/swlh/jwt-authentication-authorization-in-nodejs-express-mongodb-rest-apis-2019-ad14ec818122
@@ -70,6 +123,19 @@ router
             res.redirect('/login')
         } catch (err) {
             res.status(400).send(err)
+        }
+    })
+    // Logout, filter user token and return true if any tokens of is not equal to the token of the loggedin user
+    .get('/logout', auth, async (req, res) => {
+        try {
+            req.user.tokens = req.user.tokens.filter((token) => {
+                return token.token != req.token
+            })
+            await req.user.save()
+            res.clearCookie('dating_token')
+            res.redirect('/login')
+        } catch (err) {
+            res.status(500).send(err)
         }
     })
 
