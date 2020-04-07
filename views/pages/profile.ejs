@@ -5,16 +5,26 @@
 <%- include ('../partials/sidebar') %>
 
     <main>
-        <h1>Welkom <%= user.firstname + " " + user.surname %></h1> 
-        <img src="/static/upload/<%= user.image %>" alt="profiel foto">
-        <p><%= user.age %></p>
-        <p><%= user.gender %></p>
-        <p>Favoriete game: <%= user.favorite %></p>
-        
-        <% const game = user.favorite  
+      <section class="user">
+
+        <h1>Welkom <%= user.firstname + " " + user.surname %></h1>
+        <img class="profile" src="/static/upload/<%= user.image %>" alt="profiel foto">
+        <section class="details">
+          <p>Age: <%= user.age %></p>
+          <p>Gender: <%= user.gender %></p>
+        </section>
+        <section class="description">
+          <h2>Omschrijving</h2>
+          <p><%= user.description %></p>
+        </section>
+    </section>
+    <section class="game">
+        <h2>Favoriete game: <%= user.favorite %></h2>
+
+        <% const game = user.favorite
         // https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects
         const item = dataTop100.find(item => item.name === game)
-        
+
         const baseURL = "//images.igdb.com/igdb/image/upload/t_screenshot_huge/"
         const nItems = item.screenshots.length
 
@@ -26,14 +36,17 @@
 
         const fullUrl = baseURL.concat(hashImageId, jpgFormat)
 
-        %> 
-        <img src="<%= fullUrl %>" alt="">
+        %>
+        <img class="profile" src="<%= fullUrl %>" alt="">
         <p><%= description %></p>
+    </section>
+
+    <section class="profile actions">
         <a class="button" href="/profile-edit">Profiel aanpassen</a>
-        
         <form method="POST" action="/delete" >
             <button class="button delete loginButton">Verwijder account</button>
         </form>
+    </section>
     </main>
 
 <%- include ('../partials/footer') %>
