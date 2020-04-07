@@ -73,6 +73,23 @@ npm start
 ## Topics
 
 ## Packages
+In this project we use the following packages : 
+* axios
+* bcrypt
+* body-parser
+* dotenv
+* ejs
+* express
+* express-rate-limit
+* helmet
+* igdb-api-node
+* jsonwebtoken
+* mongoose
+* multer
+* node-fetch
+* unirest
+* rate-limit
+* validator
 
 ## License
 [MIT](https://github.com/Roene/Dating-app-team/blob/master/LICENSE.md) © [Jelmer Lubberts](https://github.com/jelub2) & [Andres Pinto](https://github.com/khualu) & [Roene Verbeek](https://github.com/Roene)
