@@ -7,36 +7,40 @@ const userSchema = new mongoose.Schema({
     firstname: {
         type: String,
         required: true
-    }, 
+    },
     surname: {
         type: String,
         required: true
-    }, 
+    },
     age: {
         type: Number,
         required: true
-    }, 
+    },
     gender: {
         type: String,
         required: true
-    }, 
+    },
     image: {
         type: String,
         required: true
-    }, 
+    },
+    favorite: {
+        type: String,
+        required: true,
+    },
     email: {
         type: String,
         required: true,
         unique: true
-    }, 
+    },
     password: {
         type: String,
         required: true
-    }, 
+    },
     description: {
         type: String,
         required: false
-    }, 
+    },
     tokens: [{
         token: {
             type: String,
@@ -55,8 +59,8 @@ userSchema.pre('save', async function (next) {
     next()
 })
 
-// Here we create a token with JWT. The sign expects data that will be used to sign the token. 
-// Once the token created save it to the list of tokens and return the token. 
+// Here we create a token with JWT. The sign expects data that will be used to sign the token.
+// Once the token created save it to the list of tokens and return the token.
 userSchema.methods.generateAuthToken = async function() {
     const user = this
     const token = jwt.sign ({_id: user._id}, process.env.JWT_KEY)
@@ -66,7 +70,7 @@ userSchema.methods.generateAuthToken = async function() {
 }
 
 // Here we search for the User we expext 2 parameters email & password. First search for the user by email, if we can't find it throw an error.
-// If it is found we compare the password with the hashed password in the database. 
+// If it is found we compare the password with the hashed password in the database.
 userSchema.statics.findByCredentials = async (email, password) => {
     const user = await User.findOne({ email })
     if (!user) {
@@ -79,7 +83,7 @@ userSchema.statics.findByCredentials = async (email, password) => {
     return user
 }
 
-// Here we create the model called User and bind it to the userSchema then we export it. 
+// Here we create the model called User and bind it to the userSchema then we export it.
 const User = mongoose.model('User', userSchema)
 
 module.exports = User
