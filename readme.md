@@ -7,11 +7,13 @@ This is a prototype dating app for the Hogeschool of Amsterdam, CMD blok Tech 20
 
 We combined our features to a working protorype, this prototype is for gamers where you can make your own profile by filling in your personal details en select your favorite game from a list of top 100 games. 
 
+**ADD IMAGES**
+
 ## Table of contents
 1. [To-Do](#to-do)
 2. [Install](#install)
 3. [Topics](#topics)
-4. [Routes](#routes)
+4. [Folder structure](#folder-structure)
 5. [Packages](#packages)
 6. [License](#license)
 
@@ -68,7 +70,11 @@ npm test
 npm start
 ```
 
-## Routes
+## Folder structure
+In our project we tried to split up functions and folders to keep it clean. 
+In the folder **API** you can find the connection to the external API we use and the JSON file where the games will be saved. In the folder **db** you can find the connection to the database. In the **middleware** folder you can find the authentication file where we want to check if a person who is trying to access a specific resource is authorized to access it. 
+
+In the folder **routes** we have different files which handle routes when we visit a url for example `localhost:3000/sign-up` or `localhost:3000/profile`. In the **views** folder we have to other folders, **pages** and **partials** this is for the frontend all written in ejs. In the folder **static** we have static files like CSS and JavaScript.
 
 ## Topics
 Everyone had to pick 1 topic from this [list](https://docs.google.com/document/d/e/2PACX-1vR8ETKWNJqVilyVYdPE6vHoYSoSJT7CaKFy4s1a5in9rt0IF-tujSr3TffwuE9TNDaNnMhtNoA_7Kf7/pub). The research for the chosen topics can be found in the wiki : 
