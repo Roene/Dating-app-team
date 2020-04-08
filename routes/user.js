@@ -1,7 +1,7 @@
-const express   = require('express')
-const router    = express.Router()
-const multer    = require('multer')
-const validator = require('validator')
+const express       = require('express')
+const router        = express.Router()
+const multer        = require('multer')
+const validator     = require('validator')
 // OWN FILES
 const User          = require('../models/user')
 const auth          = require('../middleware/auth')
@@ -19,7 +19,7 @@ const storage   = multer.diskStorage({
 const upload = multer({ storage: storage })
 
 router
-    .get('/', auth, (req, res)  => {res.render('pages/index')})
+    .get('/', auth, (req, res)  => { res.render('pages/index')})
     .get('/search', auth, (req, res) => {
 
       let searchValue = req.query
@@ -59,14 +59,11 @@ router
 }
 })
 
-console.log(searchValue)
-
       users = User.find(searchValue)
 
       users
       .then((users) => {
         try{
-          console.log(users)
           res.render(('pages/search'), {users, dataTop100})
         } catch (err) {
           res.status(500).send(err)
@@ -90,7 +87,8 @@ console.log(searchValue)
              })
              res.redirect('/')
          } catch (err) {
-             res.status(400).send('Email of wachtwoord klopt niet')
+             req.flash('error_msg', 'De combinatie van e-mailadres en wachtwoord is niet geldig.')
+             res.status(400).redirect('login')
          }
      })
      //END OF SOURCE
@@ -120,6 +118,7 @@ console.log(searchValue)
             res.cookie('dating_token', token, {
                 maxAge: (24*7) * 60 * 60 * 1000 // 7 days it is in milliseconds
             })
+            req.flash('success_msg', 'Je profiel is aangemaakt en je kunt nu inloggen')
             res.redirect('/login')
         } catch (err) {
             res.status(400).send(err)
@@ -133,6 +132,7 @@ console.log(searchValue)
             })
             await req.user.save()
             res.clearCookie('dating_token')
+            req.flash('success_msg', 'Je bent succesvol uitgelogd')
             res.redirect('/login')
         } catch (err) {
             res.status(500).send(err)
