@@ -93,14 +93,31 @@ In this project we use the following packages :
 * express
 * express-rate-limit
 * helmet
-* igdb-api-node
 * jsonwebtoken
 * mongoose
 * multer
-* node-fetch
-* unirest
 * rate-limit
 * validator
+
+## API calls
+The format for the API calls is based on the npm package `Axios`. The basic form for a request to the `games` endpoint will look like this: 
+```javascript
+axios({
+        url: "https://api-v3.igdb.com/games",
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'user-key': userKey
+        }, 
+        data: "fields name,id,rating,popularity,summary; where name = Overwatch;"
+    })
+    .then(response => {
+       console.log(response.data)
+    })
+    .catch(err => {
+        console.error(err)
+    })
+```
 
 ## License
 [MIT](https://github.com/Roene/Dating-app-team/blob/master/LICENSE.md) © [Jelmer Lubberts](https://github.com/jelub2) & [Andres Pinto](https://github.com/khualu) & [Roene Verbeek](https://github.com/Roene)
