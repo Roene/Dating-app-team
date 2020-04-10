@@ -23,10 +23,10 @@ router
         let searchValue = req.query
         searchAge = searchValue.age = {$gte: req.query.ageMin || 18, $lte: req.query.ageMax || 126}
         let users
-
+  
         Object.keys(searchValue).forEach(function (key) {
-
-
+  
+  
           switch(key){
             case "firstname" :
             const nameCapitalized = searchValue[key].charAt(0).toUpperCase() + searchValue[key].slice(1)
@@ -44,7 +44,7 @@ router
             delete searchValue[key]
             return;
     }
-
+  
           switch(searchValue[key]){
             case '' :
             case undefined :
@@ -56,11 +56,11 @@ router
             break
   }
   })
-
+  
 //   console.log(searchValue)
-
+  
         users = User.find(searchValue)
-
+  
         users
         .then((users) => {
           try{

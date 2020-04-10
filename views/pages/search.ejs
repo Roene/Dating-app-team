@@ -30,7 +30,12 @@
 </form>
 
 <% users.forEach(function(users){%>
-<p> <%= users.firstname %> </p>
-<%})%>
+  <p> <%= users.firstname %> </p>
+  <% const baseUrl = "./static/upload/" 
+    const imageName = users.image
+    const fullUrl = baseUrl.concat(imageName)
+  %> 
+    <img src="<%= fullUrl %>" alt="">
+  <%})%>
 
 <%- include ('../partials/footer') %>
