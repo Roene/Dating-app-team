@@ -9,6 +9,7 @@ require('dotenv').config()
 // OWN FILES
 const userRoute     = require('./routes/user')
 const profileRoute  = require('./routes/profile')
+const detailRoute   = require('./routes/detail-page')
 const dbconnection  = require('./db/db')
 const axiosApiCall  = require('./api/searchGames')
 const apiTime = process.env.API_TIME
@@ -70,6 +71,7 @@ app
     .set('views', 'views')
     .use(userRoute)
     .use(profileRoute)
+    .use(detailRoute)
     .use('/static', express.static('static'))
 
     .listen(process.env.PORT || 3000);

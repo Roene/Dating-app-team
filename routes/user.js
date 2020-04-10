@@ -64,7 +64,7 @@ router
         users
         .then((users) => {
           try{
-            // console.log(users)
+            console.log(users) // users._id
             res.render(('pages/index'), {users, dataTop100})
           } catch (err) {
             res.status(500).send(err)
@@ -118,7 +118,7 @@ router
       users
       .then((users) => {
         try{
-          console.log(users)
+        //   console.log(users)
           res.render(('pages/search'), {users, dataTop100})
         } catch (err) {
           res.status(500).send(err)
