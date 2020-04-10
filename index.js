@@ -5,6 +5,7 @@ const helmet        = require("helmet")
 const app           = express()
 const flash         = require('connect-flash')
 const session       = require('express-session')
+require('dotenv').config()
 // OWN FILES
 const userRoute     = require('./routes/user')
 const profileRoute  = require('./routes/profile')
@@ -18,7 +19,6 @@ const limiter = rateLimit({
   message: "Teveel request vanaf dit adres. Voor dev: verander in index.js het max aantal in const limiter"
 })
 
-require('dotenv').config()
 
 // Make connection to the database
 dbconnection()
