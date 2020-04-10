@@ -19,7 +19,59 @@ const storage   = multer.diskStorage({
 const upload = multer({ storage: storage })
 
 router
-    .get('/', auth, (req, res)  => {res.render('pages/index')})
+    .get('/', auth, (req, res)  => {
+        let searchValue = req.query
+        searchAge = searchValue.age = {$gte: req.query.ageMin || 18, $lte: req.query.ageMax || 126}
+        let users
+  
+        Object.keys(searchValue).forEach(function (key) {
+  
+  
+          switch(key){
+            case "firstname" :
+            const nameCapitalized = searchValue[key].charAt(0).toUpperCase() + searchValue[key].slice(1)
+            searchValue[key] = nameCapitalized
+            break
+            case "age" :
+            break
+            case "gender" :
+            case "favorite" :
+            break
+            case "ageMin":
+            case "ageMax":
+            case "save" :
+            default :
+            delete searchValue[key]
+            return;
+    }
+  
+          switch(searchValue[key]){
+            case '' :
+            case undefined :
+            case null :
+            case isNaN() :
+            delete searchValue[key]
+            break
+            default :
+            break
+  }
+  })
+  
+//   console.log(searchValue)
+  
+        users = User.find(searchValue)
+  
+        users
+        .then((users) => {
+          try{
+            // console.log(users)
+            res.render(('pages/index'), {users, dataTop100})
+          } catch (err) {
+            res.status(500).send(err)
+          }
+      })
+  })
+
     .get('/search', auth, (req, res) => {
 
       let searchValue = req.query
@@ -59,7 +111,7 @@ router
 }
 })
 
-console.log(searchValue)
+// console.log(searchValue)
 
       users = User.find(searchValue)
 
