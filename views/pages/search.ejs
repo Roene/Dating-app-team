@@ -31,7 +31,7 @@
 
 <% users.forEach(function(users){%>
   <p><a href="/match-profile/<%= users._id %>"><%= users.firstname %></a></p>
-  <% const baseUrl = "./static/upload/" 
+  <% const baseUrl = "https://storage.cloud.google.com/datingapp/"
     const imageName = users.image
     const fullUrl = baseUrl.concat(imageName)
   %> 

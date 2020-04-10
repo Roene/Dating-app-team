@@ -8,7 +8,7 @@
       <section class="user">
 
         <h1>Welkom <%= renderData.firstname + " " + renderData.surname %></h1>
-        <img class="profile" src="/static/upload/<%= renderData.image %>" alt="profiel foto">
+        <img class="profile" src="https://storage.cloud.google.com/datingapp/<%= renderData.image %>" alt="profiel foto">
         <section class="details">
           <p>Age: <%= renderData.age %></p>
           <p>Gender: <%= renderData.gender %></p>
