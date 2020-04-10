@@ -32,12 +32,9 @@
     "express": "^4.17.1",
     "express-rate-limit": "^5.1.1",
     "helmet": "^3.22.0",
-    "igdb-api-node": "^4.0.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.5",
     "multer": "^1.4.2",
-    "node-fetch": "^2.6.0",
-    "unirest": "^0.6.0",
     "rate-limit": "^0.1.1",
     "validator": "^13.0.0"
   },
