@@ -10,6 +10,7 @@ const userRoute     = require('./routes/user')
 const profileRoute  = require('./routes/profile')
 const dbconnection  = require('./db/db')
 const axiosApiCall  = require('./api/searchGames')
+const apiTime = process.env.API_TIME
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -17,11 +18,17 @@ const limiter = rateLimit({
   message: "Teveel request vanaf dit adres. Voor dev: verander in index.js het max aantal in const limiter"
 })
 
+require('dotenv').config()
+
 // Make connection to the database
 dbconnection()
 
-// Run api get request for top 100 games
-axiosApiCall()
+// Timing API call
+const apiTimer = setInterval(function () {
+  axiosApiCall()
+}, apiTime)
+
+apiTimer
 
 app
     .use(bodyParser.urlencoded({extended: true}))
