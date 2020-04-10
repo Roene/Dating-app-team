@@ -1,7 +1,7 @@
-const express       = require('express')
-const router        = express.Router()
-const multer        = require('multer')
-const validator     = require('validator')
+const express   = require('express')
+const router    = express.Router()
+const multer    = require('multer')
+const validator = require('validator')
 // OWN FILES
 const User          = require('../models/user')
 const auth          = require('../middleware/auth')
@@ -19,7 +19,59 @@ const storage   = multer.diskStorage({
 const upload = multer({ storage: storage })
 
 router
-    .get('/', auth, (req, res)  => { res.render('pages/index')})
+    .get('/', auth, (req, res)  => {
+        let searchValue = req.query
+        searchAge = searchValue.age = {$gte: req.query.ageMin || 18, $lte: req.query.ageMax || 126}
+        let users
+
+        Object.keys(searchValue).forEach(function (key) {
+
+
+          switch(key){
+            case "firstname" :
+            const nameCapitalized = searchValue[key].charAt(0).toUpperCase() + searchValue[key].slice(1)
+            searchValue[key] = nameCapitalized
+            break
+            case "age" :
+            break
+            case "gender" :
+            case "favorite" :
+            break
+            case "ageMin":
+            case "ageMax":
+            case "save" :
+            default :
+            delete searchValue[key]
+            return;
+    }
+
+          switch(searchValue[key]){
+            case '' :
+            case undefined :
+            case null :
+            case isNaN() :
+            delete searchValue[key]
+            break
+            default :
+            break
+  }
+  })
+
+//   console.log(searchValue)
+
+        users = User.find(searchValue)
+
+        users
+        .then((users) => {
+          try{
+            // console.log(users)
+            res.render(('pages/index'), {users, dataTop100})
+          } catch (err) {
+            res.status(500).send(err)
+          }
+      })
+  })
+
     .get('/search', auth, (req, res) => {
 
       let searchValue = req.query
@@ -59,11 +111,14 @@ router
 }
 })
 
+// console.log(searchValue)
+
       users = User.find(searchValue)
 
       users
       .then((users) => {
         try{
+          console.log(users)
           res.render(('pages/search'), {users, dataTop100})
         } catch (err) {
           res.status(500).send(err)
@@ -87,8 +142,7 @@ router
              })
              res.redirect('/')
          } catch (err) {
-             req.flash('error_msg', 'De combinatie van e-mailadres en wachtwoord is niet geldig.')
-             res.status(400).redirect('login')
+             res.status(400).send('Email of wachtwoord klopt niet')
          }
      })
      //END OF SOURCE
@@ -118,7 +172,6 @@ router
             res.cookie('dating_token', token, {
                 maxAge: (24*7) * 60 * 60 * 1000 // 7 days it is in milliseconds
             })
-            req.flash('success_msg', 'Je profiel is aangemaakt en je kunt nu inloggen')
             res.redirect('/login')
         } catch (err) {
             res.status(400).send(err)
@@ -132,7 +185,6 @@ router
             })
             await req.user.save()
             res.clearCookie('dating_token')
-            req.flash('success_msg', 'Je bent succesvol uitgelogd')
             res.redirect('/login')
         } catch (err) {
             res.status(500).send(err)
