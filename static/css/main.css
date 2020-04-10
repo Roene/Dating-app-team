@@ -142,6 +142,204 @@ section.actions *{
   background: #74e4cc;
 }
 
+/* /////////////// ALERT MESSAGES /////////////// */
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-heading {
+  color: inherit;
+}
+
+.alert-link {
+  font-weight: 700;
+}
+
+.alert-dismissible {
+  padding-right: 4rem;
+}
+
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+}
+
+.alert-primary {
+  color: #792c11;
+  background-color: #fbddd2;
+  border-color: #f9cfc1;
+}
+
+.alert-primary hr {
+  border-top-color: #f7bdaa;
+}
+
+.alert-primary .alert-link {
+  color: #4c1c0b;
+}
+
+.alert-secondary {
+  color: #5a5753;
+  background-color: #efedec;
+  border-color: #e8e6e4;
+}
+
+.alert-secondary hr {
+  border-top-color: #dcd9d6;
+}
+
+.alert-secondary .alert-link {
+  color: #3f3d3b;
+}
+
+.alert-success {
+  color: #1d5e26;
+  background-color: #d7f0db;
+  border-color: #c7eacc;
+}
+
+.alert-success hr {
+  border-top-color: #b4e3bb;
+}
+
+.alert-success .alert-link {
+  color: #113716;
+}
+
+.alert-info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+.alert-info hr {
+  border-top-color: #abdde5;
+}
+
+.alert-info .alert-link {
+  color: #062c33;
+}
+
+.alert-warning {
+  color: #7c5f20;
+  background-color: #fcf1d8;
+  border-color: #fbebc9;
+}
+
+.alert-warning hr {
+  border-top-color: #f9e2b1;
+}
+
+.alert-warning .alert-link {
+  color: #534016;
+}
+
+.alert-danger {
+  color: #741d17;
+  background-color: #f9d7d5;
+  border-color: #f6c7c4;
+}
+
+.alert-danger hr {
+  border-top-color: #f3b2ae;
+}
+
+.alert-danger .alert-link {
+  color: #49120f;
+}
+
+.alert-light {
+  color: #797b7c;
+  background-color: #fbfbfc;
+  border-color: #f9fafb;
+}
+
+.alert-light hr {
+  border-top-color: #eaedf1;
+}
+
+.alert-light .alert-link {
+  color: #606162;
+}
+
+.alert-dark {
+  color: #3e152b;
+  background-color: #e4d4dd;
+  border-color: #d9c3cf;
+}
+
+.alert-dark hr {
+  border-top-color: #cfb3c3;
+}
+
+.alert-dark .alert-link {
+  color: #180811;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+.close:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+  opacity: .75;
+}
+
+.fade {
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+.close:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+  opacity: .75;
+}
+
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+a.close.disabled {
+  pointer-events: none;
+}
+
 
 @media screen and (max-width: 700px) {
 .main-menu {

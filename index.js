@@ -2,6 +2,9 @@ const express       = require('express')
 const bodyParser    = require('body-parser')
 const rateLimit     = require("express-rate-limit")
 const helmet        = require("helmet")
+const app           = express()
+const flash         = require('connect-flash')
+const session       = require('express-session')
 require('dotenv').config()
 // OWN FILES
 const userRoute     = require('./routes/user')
@@ -16,6 +19,7 @@ const limiter = rateLimit({
   message: "Teveel request vanaf dit adres. Voor dev: verander in index.js het max aantal in const limiter"
 })
 
+
 // Make connection to the database
 dbconnection()
 
@@ -26,10 +30,24 @@ const apiTimer = setInterval(function () {
 
 apiTimer
 
-express()
-    .use('/static', express.static('static'))
+app
     .use(bodyParser.urlencoded({extended: true}))
     .use(bodyParser.json())
+    // Configure connect-flash
+    .use(
+      session({
+        secret: 'secret',
+        resave: false,
+        saveUninitialized: true,
+      })
+    )
+    .use(flash())
+    .use((req, res, next) => {
+          res.locals.success_msg  = req.flash('success_msg')
+          res.locals.error_msg    = req.flash('error_msg')
+          res.locals.error        = req.flash('error')
+          next()
+      })
     .use(limiter)
     .use(helmet())
     .use(helmet.featurePolicy({
@@ -50,8 +68,8 @@ express()
     // Set view engine to ejs and let it search in the folder views
     .set('view engine', 'ejs')
     .set('views', 'views')
-
     .use(userRoute)
     .use(profileRoute)
+    .use('/static', express.static('static'))
 
     .listen(process.env.PORT || 3000);
