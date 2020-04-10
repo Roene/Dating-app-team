@@ -23,10 +23,10 @@ router
         let searchValue = req.query
         searchAge = searchValue.age = {$gte: req.query.ageMin || 18, $lte: req.query.ageMax || 126}
         let users
-  
+
         Object.keys(searchValue).forEach(function (key) {
-  
-  
+
+
           switch(key){
             case "firstname" :
             const nameCapitalized = searchValue[key].charAt(0).toUpperCase() + searchValue[key].slice(1)
@@ -44,7 +44,7 @@ router
             delete searchValue[key]
             return;
     }
-  
+
           switch(searchValue[key]){
             case '' :
             case undefined :
@@ -56,11 +56,11 @@ router
             break
   }
   })
-  
+
 //   console.log(searchValue)
-  
+
         users = User.find(searchValue)
-  
+
         users
         .then((users) => {
           try{
@@ -142,7 +142,8 @@ router
              })
              res.redirect('/')
          } catch (err) {
-             res.status(400).send('Email of wachtwoord klopt niet')
+             req.flash('error_msg', 'Email of wachtwoord klopt niet')
+             res.redirect('/login')
          }
      })
      //END OF SOURCE
@@ -172,6 +173,7 @@ router
             res.cookie('dating_token', token, {
                 maxAge: (24*7) * 60 * 60 * 1000 // 7 days it is in milliseconds
             })
+            req.flash('success_msg', 'Je bent geregistreerd en kan inloggen')
             res.redirect('/login')
         } catch (err) {
             res.status(400).send(err)
@@ -185,11 +187,11 @@ router
             })
             await req.user.save()
             res.clearCookie('dating_token')
+            req.flash('error_msg', 'Je bent succesvol uitgelogd')
             res.redirect('/login')
         } catch (err) {
             res.status(500).send(err)
         }
     })
-
 
 module.exports = router
