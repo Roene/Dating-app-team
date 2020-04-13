@@ -17,6 +17,12 @@
                <% } %>
             </select>
             <textarea name="description" placeholder="Vertel iets over jezelf *" required><%= user.description %></textarea>
+            <label for="gameName">Kies hier jouw favoriete game</label>
+            <select name="gameName" id="gameName" size="15">
+              <% for (x=0; x < dataTop100.length; x++) { %>
+              <option value="<%= dataTop100[x].name %>"><%= dataTop100[x].name %></option>
+              <% } %>
+            </select>
         </fieldset>
         <fieldset>
             <legend><span class="number">2</span> Account informatie</legend>
