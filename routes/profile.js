@@ -22,7 +22,7 @@ router
     .get('/profile', auth, (req, res) => {
         try {
             const user = req.user
-            res.render('pages/profile', {user, dataTop100})
+            res.render('pages/profile', { user, dataTop100 })
         } catch (err) {
             res.status(500).send(err)
         }
@@ -30,7 +30,7 @@ router
     .get('/profile-edit',  auth, (req, res) => { 
         try {
             const user = req.user
-            res.render('pages/profile-edit', { user } ) 
+            res.render('pages/profile-edit', { user, dataTop100 } ) 
         } catch (err) {
             res.status(500).send(err)
         }
@@ -45,6 +45,7 @@ router
             user.gender = req.body.gender,
             user.email = req.body.email,
             user.description = req.body.description
+            user.favorite = req.body.gameName
 
             await user.save()
             res.redirect('/profile')
