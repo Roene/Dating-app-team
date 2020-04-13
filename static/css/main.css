@@ -40,6 +40,10 @@ height: 100%;
 overflow: auto;
 }
 
+.main-menu img{
+width: 100%;
+}
+
 .main-menu a {
 display: block;
 color: black;
@@ -52,6 +56,10 @@ background-color: #555;
 color: white;
 }
 
+.main-menu .logo:hover:not(.active){
+  background: rgba(0,0,0,0);
+}
+
 main {
 margin-left: 200px;
 }
@@ -61,12 +69,34 @@ main section, main section *{
   padding-left: 16px;
 }
 
+main section.result.group{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin-top: 64px;
+}
+
+.result.profile{
+ background: rgba(255,255,255,0.4);
+ width: 23%;
+ overflow:hidden;
+ padding-right: 32px;
+ padding-top: 32px;
+ margin: 0 16px 32px;
+ }
+
+ .result.profile *{
+   max-width: 100%;
+ }
+
+
+
 /* /////////////// PROFILE /////////////// */
 
 section.user {
   display: grid;
   grid-template-columns: 25% 50%;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 5em auto;
   width: 100%;
   background: rgba(75,182,193,1);
   padding: 16px;

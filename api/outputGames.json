@@ -265,7 +265,7 @@
         "id": 1009,
         "name": "The Last of Us",
         "popularity": 48.47580009213063,
-        "rating": 94.4354992313041,
+        "rating": 94.4356315367031,
         "screenshots": [
             {
                 "id": 236,
@@ -309,7 +309,7 @@
             }
         ],
         "summary": "A third person shooter/stealth/survival hybrid, in which twenty years after the outbreak of a parasitic fungus which takes over the neural functions of humans, Joel, a Texan with a tragic familial past, finds himself responsible with smuggling a fourteen year old girl named Ellie to a militia group called the Fireflies, while avoiding strict and deadly authorities, infected fungal hosts and other violent survivors.",
-        "total_rating_count": 1555
+        "total_rating_count": 1556
     },
     {
         "id": 9927,
@@ -513,7 +513,7 @@
         "id": 25076,
         "name": "Red Dead Redemption 2",
         "popularity": 68.98177947464715,
-        "rating": 93.2069466546632,
+        "rating": 93.2067033054316,
         "screenshots": [
             {
                 "id": 43482,
@@ -613,7 +613,7 @@
             }
         ],
         "summary": "Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America’s unforgiving heartland. The game's vast and atmospheric world will also provide the foundation for a brand new online multiplayer experience.",
-        "total_rating_count": 679
+        "total_rating_count": 681
     },
     {
         "id": 7346,
@@ -1132,6 +1132,56 @@
                 "image_id": "odn0rkifmflc0xusbovl",
                 "url": "//images.igdb.com/igdb/image/upload/t_thumb/odn0rkifmflc0xusbovl.jpg",
                 "width": 480
+            }
+        ],
+        "summary": "Everyone's favorite heroine, Samus Aran, is back! Packed to the gills with exploration, creative power-ups, and wicked enemies, Metroid Prime is a first-person adventure worthy of the Metroid stamp. An action-packed adventure set in the first-person perspective, Metroid Prime takes place just after the events in the original Metroid (NES). It has lead character Samus Aran, a bounty hunter by trade, chasing down the evil Space Pirates. Their intention is to use a genetic mutagen called Phazon to create a super army and take over the universe. While the installments in the series before have never been home to deeply involving storylines, Metroid Prime breaks the shell to offer up one of the most intriguing and read-worthy sagas yet. Developed by Texas-based Retro Studios. Metroid Prime brings all of the elements of the acclaimed franchise into a massive 3D arena.",
+        "total_rating_count": 423
+    },
+    {
+        "id": 11156,
+        "name": "Horizon Zero Dawn",
+        "popularity": 59.84324518461262,
+        "rating": 92.63492622707619,
+        "screenshots": [
+            {
+                "id": 10700,
+                "game": 11156,
+                "height": 1080,
+                "image_id": "fmvburhlunnhs3mdqysc",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/fmvburhlunnhs3mdqysc.jpg",
+                "width": 1920
+            },
+            {
+                "id": 10701,
+                "game": 11156,
+                "height": 1080,
+                "image_id": "o7ehlmbjcvkeeltwreeg",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/o7ehlmbjcvkeeltwreeg.jpg",
+                "width": 1920
+            },
+            {
+                "id": 10702,
+                "game": 11156,
+                "height": 1080,
+                "image_id": "gdc15kvjedin5c4v6cce",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/gdc15kvjedin5c4v6cce.jpg",
+                "width": 1920
+            },
+            {
+                "id": 10703,
+                "game": 11156,
+                "height": 1080,
+                "image_id": "gko0jchtb85kbsc1dg9l",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/gko0jchtb85kbsc1dg9l.jpg",
+                "width": 1920
+            },
+            {
+                "id": 10704,
+                "game": 11156,
+                "height": 1080,
+                "image_id": "llwixfa0dy8fpex3tcwr",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/llwixfa0dy8fpex3tcwr.jpg",
+                "width": 1920
             }
         ],
         "summary": "Everyone's favorite heroine, Samus Aran, is back! Packed to the gills with exploration, creative power-ups, and wicked enemies, Metroid Prime is a first-person adventure worthy of the Metroid stamp. An action-packed adventure set in the first-person perspective, Metroid Prime takes place just after the events in the original Metroid (NES). It has lead character Samus Aran, a bounty hunter by trade, chasing down the evil Space Pirates. Their intention is to use a genetic mutagen called Phazon to create a super army and take over the universe. While the installments in the series before have never been home to deeply involving storylines, Metroid Prime breaks the shell to offer up one of the most intriguing and read-worthy sagas yet. Developed by Texas-based Retro Studios. Metroid Prime brings all of the elements of the acclaimed franchise into a massive 3D arena.",
@@ -1757,7 +1807,7 @@
         "id": 1020,
         "name": "Grand Theft Auto V",
         "popularity": 124.4816584555886,
-        "rating": 91.4620964878855,
+        "rating": 91.4624733532342,
         "screenshots": [
             {
                 "id": 5670,
@@ -1809,7 +1859,7 @@
             }
         ],
         "summary": "The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.",
-        "total_rating_count": 2373
+        "total_rating_count": 2374
     },
     {
         "id": 375,
@@ -2135,7 +2185,7 @@
         "id": 434,
         "name": "Red Dead Redemption",
         "popularity": 16.15659345664265,
-        "rating": 90.9779198524133,
+        "rating": 90.9776502642813,
         "screenshots": [
             {
                 "id": 1244,
@@ -2179,7 +2229,7 @@
             }
         ],
         "summary": "A modern-day Western epic, Red Dead Redemption takes John Marston, a relic from the fast-closing time of the gunslinger, through an open-world filled with wildlife, mini games and shootouts. Marston sets out to hunt down his old gang mates for the government, who have taken away his family, and meets many characters emblematic of the Wild West, heroism and the new civilization along his journey.",
-        "total_rating_count": 1144
+        "total_rating_count": 1145
     },
     {
         "id": 116,
@@ -2377,7 +2427,7 @@
         "id": 732,
         "name": "Grand Theft Auto: San Andreas",
         "popularity": 37.3312460798934,
-        "rating": 90.478948773416,
+        "rating": 90.4792269053737,
         "screenshots": [
             {
                 "id": 676,
@@ -2477,7 +2527,7 @@
             }
         ],
         "summary": "Returning after his mother's murder to the semi-fictional city of Los Santos (based on Los Angeles), Carl Johnson, a former gang banger, must take back the streets for his family and friends by gaining respect and once again gaining control over the city. However, a story filled with plots, lies and corruption will lead him to trudge the entire state of San Andreas (based on California and Nevada) to get revenge.",
-        "total_rating_count": 1605
+        "total_rating_count": 1606
     },
     {
         "id": 26758,
@@ -3124,6 +3174,56 @@
         "total_rating_count": 1088
     },
     {
+        "id": 565,
+        "name": "Uncharted 2: Among Thieves",
+        "popularity": 13.03611833321622,
+        "rating": 90.0007883356396,
+        "screenshots": [
+            {
+                "id": 117179,
+                "game": 565,
+                "height": 720,
+                "image_id": "y8hfgmvpa4cfiigzp7px",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/y8hfgmvpa4cfiigzp7px.jpg",
+                "width": 1280
+            },
+            {
+                "id": 117180,
+                "game": 565,
+                "height": 720,
+                "image_id": "wiaemy9tvcghaxhdwise",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/wiaemy9tvcghaxhdwise.jpg",
+                "width": 1280
+            },
+            {
+                "id": 117181,
+                "game": 565,
+                "height": 720,
+                "image_id": "lixunrfynbqpnbmf4eqr",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/lixunrfynbqpnbmf4eqr.jpg",
+                "width": 1280
+            },
+            {
+                "id": 117182,
+                "game": 565,
+                "height": 720,
+                "image_id": "vle5aurbgpszueahjpng",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/vle5aurbgpszueahjpng.jpg",
+                "width": 1280
+            },
+            {
+                "id": 117183,
+                "game": 565,
+                "height": 1440,
+                "image_id": "il4jraotz45isic3z6wp",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/il4jraotz45isic3z6wp.jpg",
+                "width": 2560
+            }
+        ],
+        "summary": "In the sequel to Drake's Fortune, Nathan Drake comes across a map that showcases the location of Marco Polo's missing ships. It takes him on a journey to find the infamous Cintamani Stone, and uncover the truth behind it.",
+        "total_rating_count": 1088
+    },
+    {
         "id": 7344,
         "name": "Ori and the Blind Forest",
         "popularity": 31.75896907377478,
@@ -3585,7 +3685,7 @@
         "id": 26226,
         "name": "Celeste",
         "popularity": 108.2106095977222,
-        "rating": 89.532586295306,
+        "rating": 89.5332415475606,
         "screenshots": [
             {
                 "id": 51197,
@@ -3685,7 +3785,7 @@
             }
         ],
         "summary": "A single-player platformer about climbing a mountain. Battle your inner demons and climb through more than 250 devious stages to reach the summit. It won't be easy.",
-        "total_rating_count": 353
+        "total_rating_count": 354
     },
     {
         "id": 1092,
@@ -3863,7 +3963,7 @@
         "id": 1068,
         "name": "Super Mario Bros. 3",
         "popularity": 7.909623487587088,
-        "rating": 89.2472284610482,
+        "rating": 89.2475706030682,
         "screenshots": [
             {
                 "id": 3265,
@@ -3963,13 +4063,13 @@
             }
         ],
         "summary": "Super Mario Bros. 3 is a platform video game for the Nintendo Entertainment System (NES) video game console. Mario and Luigi embark on a quest to save Princess Toadstool and the rulers of seven different kingdoms from the antagonist Bowser and his children, the Koopalings. The player, as Mario or Luigi, is able to defeat enemies by stomping them or using items that bestow magical powers. Mario and Luigi are given a wider range of abilities than in previous Super Mario games, including flying or sliding down slopes. In addition, Super Mario Bros. 3 introduces numerous elements, such as new enemy characters and the use of a world map to transition between levels, that have reappeared in or have influenced subsequent Mario games.",
-        "total_rating_count": 800
+        "total_rating_count": 801
     },
     {
         "id": 230,
         "name": "StarCraft",
         "popularity": 6.126494845629129,
-        "rating": 89.18859699244541,
+        "rating": 89.18863051457461,
         "screenshots": [
             {
                 "id": 320891,
@@ -4063,7 +4163,7 @@
             }
         ],
         "summary": "StarCraft is a strategic game set in a Galaxy far away on multiple planets. It's style and balance between the three antagonistic species it features is unique and appealed to millions.",
-        "total_rating_count": 611
+        "total_rating_count": 612
     },
     {
         "id": 364,
@@ -4309,7 +4409,7 @@
         "id": 239,
         "name": "StarCraft II: Wings of Liberty",
         "popularity": 12.81322725297147,
-        "rating": 88.6859604027789,
+        "rating": 88.6860141996703,
         "screenshots": [
             {
                 "id": 596,
@@ -4353,97 +4453,7 @@
             }
         ],
         "summary": "In the distant future, in the darkest reaches of space, the ghosts of the past whisper your name. You are Jim Raynor, a marshal-turned-rebel on a vigilante crusade to bring down the Dominion and its nefarious leader, Arcturus Mengsk. Haunted by betrayal and remorse, some believe you may have given up the fight. But you have promises to keep… and a need for vengeance that’s long overdue.",
-        "total_rating_count": 538
-    },
-    {
-        "id": 1715,
-        "name": "Mega Man 2",
-        "popularity": 4.120475123426427,
-        "rating": 88.6404035287991,
-        "screenshots": [
-            {
-                "id": 14162,
-                "game": 1715,
-                "height": 896,
-                "image_id": "mxhysmvkq1buqajcqfr1",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/mxhysmvkq1buqajcqfr1.jpg",
-                "width": 1152
-            },
-            {
-                "id": 165064,
-                "game": 1715,
-                "height": 240,
-                "image_id": "ibixf2tq71huj9zqgdsm",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/ibixf2tq71huj9zqgdsm.jpg",
-                "width": 256
-            },
-            {
-                "id": 165065,
-                "game": 1715,
-                "height": 240,
-                "image_id": "mlyi2ytfibfdb0794ddd",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/mlyi2ytfibfdb0794ddd.jpg",
-                "width": 256
-            },
-            {
-                "id": 165066,
-                "game": 1715,
-                "height": 240,
-                "image_id": "ql3plrpue9n521xcvfae",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/ql3plrpue9n521xcvfae.jpg",
-                "width": 256
-            },
-            {
-                "id": 165067,
-                "game": 1715,
-                "height": 240,
-                "image_id": "n3ess696z5x3rofhuolm",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/n3ess696z5x3rofhuolm.jpg",
-                "width": 256
-            },
-            {
-                "id": 165068,
-                "game": 1715,
-                "height": 240,
-                "image_id": "xwebctnxlin6qgkjvepo",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/xwebctnxlin6qgkjvepo.jpg",
-                "width": 256
-            },
-            {
-                "id": 165069,
-                "game": 1715,
-                "height": 240,
-                "image_id": "anqqksexak6j2q8welbp",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/anqqksexak6j2q8welbp.jpg",
-                "width": 256
-            },
-            {
-                "id": 165070,
-                "game": 1715,
-                "height": 240,
-                "image_id": "an9x0tazfpnzntjafitk",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/an9x0tazfpnzntjafitk.jpg",
-                "width": 256
-            },
-            {
-                "id": 165071,
-                "game": 1715,
-                "height": 240,
-                "image_id": "ipk0wnio5u0jzj4cpwaj",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/ipk0wnio5u0jzj4cpwaj.jpg",
-                "width": 256
-            },
-            {
-                "id": 165072,
-                "game": 1715,
-                "height": 240,
-                "image_id": "gzvmpqke6whgu0weksu6",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/gzvmpqke6whgu0weksu6.jpg",
-                "width": 256
-            }
-        ],
-        "summary": "The demented Dr. Wily is at it again! This time he's stolen the experimental Time Skimmer and skipped into the future. But Wait! Four of his strongest cyborgs have been left behind to squash the mighty Mega Man! \n \nTime is of the essence as Mega Man and Rush blast past waves of maniacal metal monsters on the way to underground lair of Dr. Wily. Once there they must face Quint, the ferocious fiend from the future!",
-        "total_rating_count": 226
+        "total_rating_count": 539
     },
     {
         "id": 36926,
@@ -4710,6 +4720,112 @@
                 "image_id": "okf6clwb9ffhaoq9fews",
                 "url": "//images.igdb.com/igdb/image/upload/t_thumb/okf6clwb9ffhaoq9fews.jpg",
                 "width": 640
+            },
+            {
+                "id": 176355,
+                "game": 1033,
+                "height": 480,
+                "image_id": "amvufqgm5qq7ltaiafqk",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/amvufqgm5qq7ltaiafqk.jpg",
+                "width": 640
+            },
+            {
+                "id": 176356,
+                "game": 1033,
+                "height": 480,
+                "image_id": "hddjnlyisgcdkpnm5d4o",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/hddjnlyisgcdkpnm5d4o.jpg",
+                "width": 640
+            },
+            {
+                "id": 176357,
+                "game": 1033,
+                "height": 480,
+                "image_id": "drqn6wdohkixmipkw31e",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/drqn6wdohkixmipkw31e.jpg",
+                "width": 640
+            }
+        ],
+        "summary": "The Legend of Zelda: The Wind Waker is the 10th sequel of the Legend of Zelda action-adventure series. It's the first game of the series to be set on a group of islands in the sea. Therefore, many of Link's actions base on sailing and travelling from island to island, making a baton for controlling the wind the key item of the game. \n \nWind Waker is the first game of the Series with a cel-shaded graphic style. Since fans expected a Zelda game with realistic graphics like being shown at the Space World in 2000, the cel-shading look was critisized and discussed controversial for being too cartoonish.",
+        "total_rating_count": 522
+    },
+    {
+        "id": 2350,
+        "name": "Mario Kart 8",
+        "popularity": 9.4698610493003,
+        "rating": 88.5054103900934,
+        "screenshots": [
+            {
+                "id": 2776,
+                "game": 2350,
+                "height": 1080,
+                "image_id": "lcldixm35mhyvhkqpxdn",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/lcldixm35mhyvhkqpxdn.jpg",
+                "width": 1920
+            },
+            {
+                "id": 2777,
+                "game": 2350,
+                "height": 1080,
+                "image_id": "ezrvpswnbfad3sy1s2fa",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/ezrvpswnbfad3sy1s2fa.jpg",
+                "width": 1920
+            },
+            {
+                "id": 2778,
+                "game": 2350,
+                "height": 1080,
+                "image_id": "zbxjppkunzzuvrikzmdj",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/zbxjppkunzzuvrikzmdj.jpg",
+                "width": 1920
+            },
+            {
+                "id": 2779,
+                "game": 2350,
+                "height": 1080,
+                "image_id": "elxrjv2witfreajyehn7",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/elxrjv2witfreajyehn7.jpg",
+                "width": 1920
+            },
+            {
+                "id": 2780,
+                "game": 2350,
+                "height": 1080,
+                "image_id": "uojeviq0vlvdcpkld2zr",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/uojeviq0vlvdcpkld2zr.jpg",
+                "width": 1920
+            },
+            {
+                "id": 164505,
+                "game": 2350,
+                "height": 720,
+                "image_id": "y0hajkldsrtomkcenntv",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/y0hajkldsrtomkcenntv.jpg",
+                "width": 1280
+            },
+            {
+                "id": 164506,
+                "game": 2350,
+                "height": 720,
+                "image_id": "fnpb3gx5bhqzpcnbtxvj",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/fnpb3gx5bhqzpcnbtxvj.jpg",
+                "width": 1280
+            },
+            {
+                "id": 164507,
+                "game": 2350,
+                "height": 720,
+                "image_id": "xwbhiqws2ftn7xlx8eev",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/xwbhiqws2ftn7xlx8eev.jpg",
+                "width": 1280
+            },
+            {
+                "id": 164508,
+                "game": 2350,
+                "height": 720,
+                "image_id": "irzuqkqh8bgqdunsxllh",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/irzuqkqh8bgqdunsxllh.jpg",
+                "width": 1280
             },
             {
                 "id": 176355,
@@ -5529,7 +5645,7 @@
         "id": 8197,
         "name": "Tetris",
         "popularity": 5.23493052465015,
-        "rating": 88.15810500230249,
+        "rating": 88.1575674082894,
         "screenshots": [
             {
                 "id": 375511,
@@ -5593,7 +5709,7 @@
             }
         ],
         "summary": "Tetris is a tile-matching puzzle video game. The goal is to place pieces made up of four tiles in a ten-by-twenty well, organizing them into complete rows, which then disappear. The main objective of each round is to clear 25 lines, after which the player moves on to the next round. If the stack reaches the top of the field, the player loses a life, and if all three lives are lost, the game is over. \n \nThe game lets the player choose the starting stage and round, as well as one of three background tunes. Difficulty is increased throughout the stages by an increase in speed and the addition of garbage blocks in the well.",
-        "total_rating_count": 646
+        "total_rating_count": 647
     },
     {
         "id": 7603,
@@ -5750,6 +5866,96 @@
         ],
         "summary": "Released as a special edition to Pokémon Gold and Silver (1999), Pokémon Crystal added the option to play as a female character, expanded upon the storyline and made slight aesthetic changes to the still-intact core experience of becoming a Pokémon Master.",
         "total_rating_count": 174
+    },
+    {
+        "id": 1715,
+        "name": "Mega Man 2",
+        "popularity": 4.120475123426427,
+        "rating": 87.9757213952788,
+        "screenshots": [
+            {
+                "id": 14162,
+                "game": 1715,
+                "height": 896,
+                "image_id": "mxhysmvkq1buqajcqfr1",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/mxhysmvkq1buqajcqfr1.jpg",
+                "width": 1152
+            },
+            {
+                "id": 165064,
+                "game": 1715,
+                "height": 240,
+                "image_id": "ibixf2tq71huj9zqgdsm",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/ibixf2tq71huj9zqgdsm.jpg",
+                "width": 256
+            },
+            {
+                "id": 165065,
+                "game": 1715,
+                "height": 240,
+                "image_id": "mlyi2ytfibfdb0794ddd",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/mlyi2ytfibfdb0794ddd.jpg",
+                "width": 256
+            },
+            {
+                "id": 165066,
+                "game": 1715,
+                "height": 240,
+                "image_id": "ql3plrpue9n521xcvfae",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/ql3plrpue9n521xcvfae.jpg",
+                "width": 256
+            },
+            {
+                "id": 165067,
+                "game": 1715,
+                "height": 240,
+                "image_id": "n3ess696z5x3rofhuolm",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/n3ess696z5x3rofhuolm.jpg",
+                "width": 256
+            },
+            {
+                "id": 165068,
+                "game": 1715,
+                "height": 240,
+                "image_id": "xwebctnxlin6qgkjvepo",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/xwebctnxlin6qgkjvepo.jpg",
+                "width": 256
+            },
+            {
+                "id": 165069,
+                "game": 1715,
+                "height": 240,
+                "image_id": "anqqksexak6j2q8welbp",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/anqqksexak6j2q8welbp.jpg",
+                "width": 256
+            },
+            {
+                "id": 165070,
+                "game": 1715,
+                "height": 240,
+                "image_id": "an9x0tazfpnzntjafitk",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/an9x0tazfpnzntjafitk.jpg",
+                "width": 256
+            },
+            {
+                "id": 165071,
+                "game": 1715,
+                "height": 240,
+                "image_id": "ipk0wnio5u0jzj4cpwaj",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/ipk0wnio5u0jzj4cpwaj.jpg",
+                "width": 256
+            },
+            {
+                "id": 165072,
+                "game": 1715,
+                "height": 240,
+                "image_id": "gzvmpqke6whgu0weksu6",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/gzvmpqke6whgu0weksu6.jpg",
+                "width": 256
+            }
+        ],
+        "summary": "The demented Dr. Wily is at it again! This time he's stolen the experimental Time Skimmer and skipped into the future. But Wait! Four of his strongest cyborgs have been left behind to squash the mighty Mega Man! \n \nTime is of the essence as Mega Man and Rush blast past waves of maniacal metal monsters on the way to underground lair of Dr. Wily. Once there they must face Quint, the ferocious fiend from the future!",
+        "total_rating_count": 227
     },
     {
         "id": 9600,
@@ -6045,7 +6251,7 @@
         "id": 733,
         "name": "Grand Theft Auto: Vice City",
         "popularity": 33.76498879597748,
-        "rating": 87.9022844861251,
+        "rating": 87.9043395405968,
         "screenshots": [
             {
                 "id": 8541,
@@ -6089,13 +6295,13 @@
             }
         ],
         "summary": "In the year 1986, Tommy Vercetti is heavily indebted to his mafia superiors after a drug deal gone awry, but his dreams of taking over Vice City (based on Miami) push him down a different path. Featuring a wide variety of vehicles and weapons, radio stations playing hit songs from the era and an intense atmosphere, GTA: Vice City is an open-world sandbox satire of '80's Miami.",
-        "total_rating_count": 1299
+        "total_rating_count": 1300
     },
     {
         "id": 20,
         "name": "BioShock",
         "popularity": 19.72285074055856,
-        "rating": 87.8535607408086,
+        "rating": 87.8537700870622,
         "screenshots": [
             {
                 "id": 5817,
@@ -6943,7 +7149,7 @@
         "id": 295,
         "name": "Command & Conquer: Red Alert",
         "popularity": 4.789148364160662,
-        "rating": 87.3012612390028,
+        "rating": 87.30202321678391,
         "screenshots": [
             {
                 "id": 15687,
@@ -7015,7 +7221,7 @@
             }
         ],
         "summary": "Travel to an alternate universe where dark experiments have permanently altered time. Or have they? Soviet tanks crush city after city while Allied cruisers shell bases. Spies lurk, landmines await, and strange new technologies aid both sides in the struggle for ultimate control. In this parallel reality, the mighty Soviet Empire has begun to “liberate” all of Europe. Cities fall and countries collapse before the overwhelming might of the Red Storm. The Allies are scrambling to meet the onslaught, but they have been caught by surprise. Red Alert puts the fate of the world in your hands!",
-        "total_rating_count": 179
+        "total_rating_count": 180
     },
     {
         "id": 12517,

@@ -2,21 +2,15 @@ const express   = require('express')
 const router    = express.Router()
 const multer    = require('multer')
 const validator = require('validator')
+const multerGoogleStorage = require("multer-google-storage")
 // OWN FILES
 const User          = require('../models/user')
 const auth          = require('../middleware/auth')
 const dataTop100    = require('../api/outputGames.json')
 
-const storage   = multer.diskStorage({
-    destination: (req, file, callback) => {
-        callback(null, 'static/upload/')
-    },
-    filename: (req, file, callback) => {
-        callback(null, file.originalname)
-    }
+const upload = multer({
+  storage: multerGoogleStorage.storageEngine()
 })
-
-const upload = multer({ storage: storage })
 
 router
     .get('/', auth, (req, res)  => {
