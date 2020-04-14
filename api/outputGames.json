@@ -826,60 +826,10 @@
         "total_rating_count": 613
     },
     {
-        "id": 6,
-        "name": "Baldur's Gate II: Shadows of Amn",
-        "popularity": 22.17465262325075,
-        "rating": 92.82886881275618,
-        "screenshots": [
-            {
-                "id": 9163,
-                "game": 6,
-                "height": 600,
-                "image_id": "u6oyz9tazkdzfuaha2oy",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/u6oyz9tazkdzfuaha2oy.jpg",
-                "width": 800
-            },
-            {
-                "id": 11341,
-                "game": 6,
-                "height": 899,
-                "image_id": "s1u29bg7vfsdent9cnhf",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/s1u29bg7vfsdent9cnhf.jpg",
-                "width": 1600
-            },
-            {
-                "id": 11342,
-                "game": 6,
-                "height": 903,
-                "image_id": "cwbxvah22y5lv3lnq173",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/cwbxvah22y5lv3lnq173.jpg",
-                "width": 1601
-            },
-            {
-                "id": 11343,
-                "game": 6,
-                "height": 1080,
-                "image_id": "lcvpmm5wtjkv7gxgzu8r",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/lcvpmm5wtjkv7gxgzu8r.jpg",
-                "width": 1920
-            },
-            {
-                "id": 11344,
-                "game": 6,
-                "height": 904,
-                "image_id": "yilgqbbkc4hdyzl2asmn",
-                "url": "//images.igdb.com/igdb/image/upload/t_thumb/yilgqbbkc4hdyzl2asmn.jpg",
-                "width": 1604
-            }
-        ],
-        "summary": "Every World has conflict. Good and evil. Friend and foe. Safety and danger. In Baldur's Gate II: Shadows of Amn, you'll find yourself between these factions. This epic sequel to the Roleplaying Game of the Year will immerse you in a world of intrigue, adventure and fierce combat where your ability to discern the difference between these sides - with the assistance of steel and spell - determines your fate. Set in the Forgotten Realms campaign setting, Baldur's Gate II is the most stunning Advanced Dungeons and Dragons game to date.",
-        "total_rating_count": 285
-    },
-    {
         "id": 1070,
         "name": "Super Mario World",
         "popularity": 17.49393993811111,
-        "rating": 92.82879502915969,
+        "rating": 92.8290186933485,
         "screenshots": [
             {
                 "id": 9506,
@@ -979,7 +929,57 @@
             }
         ],
         "summary": "Super Mario World (subtitled Super Mario Bros. 4 on the Japanese logo) is a 2D Mario platform game and a launch title for the Super Nintendo Entertainment System. Being a sequel to Super Mario Bros. 3, the game retains many of the elements that debuted in Super Mario Bros. 3, such as the world map and Koopaling boss fights, while introducing a large variety of new gameplay mechanics, such as an expanded and less linear world map and the ability to save the game. Introduced in Super Mario World is Mario's sidekick, Yoshi (and his species that shares his name), where he serves as a playable mount for the Mario Bros. with his own unique abilities and gameplay style.",
-        "total_rating_count": 827
+        "total_rating_count": 828
+    },
+    {
+        "id": 6,
+        "name": "Baldur's Gate II: Shadows of Amn",
+        "popularity": 22.17465262325075,
+        "rating": 92.82886881275618,
+        "screenshots": [
+            {
+                "id": 9163,
+                "game": 6,
+                "height": 600,
+                "image_id": "u6oyz9tazkdzfuaha2oy",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/u6oyz9tazkdzfuaha2oy.jpg",
+                "width": 800
+            },
+            {
+                "id": 11341,
+                "game": 6,
+                "height": 899,
+                "image_id": "s1u29bg7vfsdent9cnhf",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/s1u29bg7vfsdent9cnhf.jpg",
+                "width": 1600
+            },
+            {
+                "id": 11342,
+                "game": 6,
+                "height": 903,
+                "image_id": "cwbxvah22y5lv3lnq173",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/cwbxvah22y5lv3lnq173.jpg",
+                "width": 1601
+            },
+            {
+                "id": 11343,
+                "game": 6,
+                "height": 1080,
+                "image_id": "lcvpmm5wtjkv7gxgzu8r",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/lcvpmm5wtjkv7gxgzu8r.jpg",
+                "width": 1920
+            },
+            {
+                "id": 11344,
+                "game": 6,
+                "height": 904,
+                "image_id": "yilgqbbkc4hdyzl2asmn",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/yilgqbbkc4hdyzl2asmn.jpg",
+                "width": 1604
+            }
+        ],
+        "summary": "Every World has conflict. Good and evil. Friend and foe. Safety and danger. In Baldur's Gate II: Shadows of Amn, you'll find yourself between these factions. This epic sequel to the Roleplaying Game of the Year will immerse you in a world of intrigue, adventure and fierce combat where your ability to discern the difference between these sides - with the assistance of steel and spell - determines your fate. Set in the Forgotten Realms campaign setting, Baldur's Gate II is the most stunning Advanced Dungeons and Dragons game to date.",
+        "total_rating_count": 285
     },
     {
         "id": 832,
