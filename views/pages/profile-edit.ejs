@@ -1,0 +1,36 @@
+<%- include ('../partials/head') %>
+
+<body>
+<%- include ('../partials/header') %>
+
+  <main>
+    <form class="form-style-5" method="POST" action="/profile-edit" enctype="multipart/form-data">
+        <fieldset>
+            <legend><span class="number">1</span> Persoonlijke informatie</legend>
+            <input type="text" name="firstname" placeholder="Voornaam *" value="<%= user.firstname %>" required>
+            <input type="text" name="surname" placeholder="Achternaam *" value="<%= user.surname %>" required>
+            <input type="number" name="age" placeholder="18 *" min="18" max="99" value="<%= user.age %>" required>
+            <% const genders = ['man', 'female', 'anders'] %>
+            <select name="gender" required>
+               <% for (gender of genders) { %>
+                    <option value="<%= gender %>" <% if (user.gender === gender) { %> <%="selected"%> <% } %> ><%= gender %> </option>
+               <% } %>
+            </select>
+            <textarea name="description" placeholder="Vertel iets over jezelf *" required><%= user.description %></textarea>
+            <label for="gameName">Kies hier jouw favoriete game</label>
+            <select name="gameName" id="gameName" size="15">
+              <% for (x=0; x < dataTop100.length; x++) { %>
+              <option value="<%= dataTop100[x].name %>"><%= dataTop100[x].name %></option>
+              <% } %>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><span class="number">2</span> Account informatie</legend>
+            <input type="email" name="email" placeholder="example@example.nl *" value="<%= user.email %>" required>
+        </fieldset>
+            <input type="submit" value="Profiel updaten">
+        </form>
+  </main>
+
+<%- include ('../partials/footer') %>
+</body>

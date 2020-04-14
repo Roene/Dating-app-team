@@ -1,0 +1,46 @@
+<%- include ('../partials/head') %>
+
+<body>
+<%- include ('../partials/header') %>
+<%- include ('../partials/sidebar') %>
+
+    <main>
+      <section class="user">
+
+        <h1>Welkom <%= renderData.firstname + " " + renderData.surname %></h1>
+        <img class="profile" src="https://storage.cloud.google.com/datingapp/<%= renderData.image %>" alt="profiel foto">
+        <section class="details">
+          <p>Age: <%= renderData.age %></p>
+          <p>Gender: <%= renderData.gender %></p>
+        </section>
+        <section class="description">
+          <h2>Omschrijving</h2>
+          <p><%= renderData.description %></p>
+        </section>
+    </section>
+    <section class="game">
+        <h2>Favoriete game: <%= renderData.favorite %></h2>
+
+        <% const game = renderData.favorite
+        // https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects
+        const item = dataTop100.find(item => item.name === game)
+
+        const baseURL = "//images.igdb.com/igdb/image/upload/t_screenshot_big/"
+        const nItems = item.screenshots.length
+
+        const randomNumer = Math.floor(Math.random() * nItems)
+
+        const hashImageId = item.screenshots[randomNumer].image_id
+        const jpgFormat = ".jpg"
+        const description = item.summary
+
+        const fullUrl = baseURL.concat(hashImageId, jpgFormat)
+
+        %>
+        <img class="profile" src="<%= fullUrl %>" alt="">
+        <p><%= description %></p>
+    </section>
+    </main>
+
+<%- include ('../partials/footer') %>
+</body>

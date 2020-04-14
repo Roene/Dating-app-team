@@ -1,0 +1,21 @@
+<%- include ('../partials/head') %>
+
+<body>
+<%- include ('../partials/header') %>
+
+  <main>
+    <form class="form-style-5" method="POST" action="/login">
+        <fieldset>
+            <%- include('../partials/messages') %>
+            <legend>Inloggen</legend>
+            <p class="text-center">Nog geen account? Registreer dan <a href="/signup">hier</a></p>
+            <input type="email" name="email" placeholder="example@example.nl *" required>
+            <input type="password" name="password" placeholder="Wachtwoord *" required>
+        </fieldset>
+            <input type="submit" value="Inloggen">
+        </form>
+
+  </main>
+
+<%- include ('../partials/footer') %>
+</body>

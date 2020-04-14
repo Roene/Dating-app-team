@@ -1,0 +1,41 @@
+
+<form class="form-style-5" action="/search" method="GET">
+    <fieldset>
+      <legend>Zoek een speler</legend>
+      <label for="firstname">Voornaam:</label>
+        <input type="text" name="firstname">
+        <label for="gender"> Geslacht </label>
+        <select name="gender">
+          <option value="">Selecteer een geslacht:</option>
+          <option value="man"     >Man</option>
+          <option value="female"  >Vrouw</option>
+          <option value="other"   >Anders</option>
+        </select>
+      <label for="ageMin">minimum leeftijd</label>
+      <input type="number" id="ageMin" name="ageMin" min="18" max="126" value="18">
+      <label for="ageMax">maximum leeftijd:</label>
+      <input type="number" id="ageMax" name="ageMax" min="18" max="126" Value="99">
+      <label for="favorite">Kies hier jouw favoriete game</label>
+      <select name="favorite" id="gameName" size="15">
+        <% for (x=0; x < dataTop100.length; x++) { %>
+        <option value="<%= dataTop100[x].name %>"><%= dataTop100[x].name %></option>
+        <% } %>
+      </select>
+      <input type="submit" name="save" placeholder="Log-in">
+    </fieldset>
+  </form>
+
+<section class="result group">
+  <% users.forEach(function(users){%>
+<div class="result profile">
+  <% const baseUrl = "https://storage.cloud.google.com/datingapp/"
+    const imageName = users.image
+    const fullUrl = baseUrl.concat(imageName)
+  %> 
+    <img class="profile" src="<%= fullUrl %>" alt="">
+    <h3><a href="/match-profile/<%= users._id %>"><%= users.firstname %></a></h3>
+    <p>Age: <%= users.age %></p>
+    <p>Gender: <%= users.gender %></p>
+</div>
+  <%})%>
+</section>

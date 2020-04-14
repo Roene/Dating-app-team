@@ -1,0 +1,38 @@
+<%- include ('../partials/head') %>
+
+<body>
+<%- include ('../partials/header') %>
+
+  <main>
+    <form class="form-style-5" method="POST" action="/signup" enctype="multipart/form-data">
+        <fieldset>
+            <legend><span class="number">1</span> Persoonlijke informatie</legend>
+            <input type="text" name="firstname" placeholder="Voornaam *" required>
+            <input type="text" name="surname" placeholder="Achternaam *" required>
+            <input type="number" name="age" placeholder="18 *" min="18" max="99" required>
+            <select name="gender" required>
+                <option value="">Selecteer je geslacht:</option>
+                <option value="man"     >Man</option>
+                <option value="female"  >Vrouw</option>
+                <option value="other"   >Anders</option>
+            </select>
+            <label for="gameName">Kies hier jouw favoriete game</label>
+            <select name="gameName" id="gameName" size="15">
+              <% for (x=0; x < dataTop100.length; x++) { %>
+              <option value="<%= dataTop100[x].name %>"><%= dataTop100[x].name %></option>
+              <% } %>
+            </select>
+            <textarea name="description" placeholder="Vertel iets over jezelf *" required></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><span class="number">2</span> Account informatie</legend>
+            <input type="email" name="email" placeholder="example@example.nl *" required>
+            <input type="password" name="password" placeholder="Wachtwoord *" required>
+            <input type="file" name="image" accept="image/*" required>
+        </fieldset>
+            <input type="submit" value="Registreren">
+        </form>
+  </main>
+
+<%- include ('../partials/footer') %>
+</body>
