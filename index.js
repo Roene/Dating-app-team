@@ -15,15 +15,13 @@ const axiosApiCall = require('./api/searchGames')
 const apiTime = process.env.API_TIME
 
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 300, // Limit to 100 each IP adres
-  message: 'Teveel request vanaf dit adres. Voor dev: verander in index.js het max aantal in const limiter'
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+  message: 'Teveel request vanaf dit adres.'
 })
 
-// Make connection to the database
 dbconnection()
 
-// Timing API call
 const apiTimer = setInterval(function () {
   axiosApiCall()
 }, apiTime)
@@ -33,7 +31,6 @@ apiTimer
 app
   .use(bodyParser.urlencoded({ extended: true }))
   .use(bodyParser.json())
-// Configure connect-flash
   .use(
     session({
       secret: 'secret',
@@ -66,7 +63,6 @@ app
   .use(helmet.referrerPolicy({
     policy: 'strict-origin-when-cross-origin'
   }))
-// Set view engine to ejs and let it search in the folder views
   .set('view engine', 'ejs')
   .set('views', 'views')
   .use(userRoute)

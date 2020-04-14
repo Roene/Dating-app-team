@@ -49,14 +49,11 @@ router
       }
     })
 
-    //   console.log(searchValue)
-
     users = User.find(searchValue)
 
     users
       .then((users) => {
         try {
-          console.log(users) // users._id
           res.render(('pages/index'), { users, dataTop100 })
         } catch (err) {
           res.status(500).send(err)
@@ -100,14 +97,11 @@ router
       }
     })
 
-    // console.log(searchValue)
-
     users = User.find(searchValue)
 
     users
       .then((users) => {
         try {
-        //   console.log(users)
           res.render(('pages/search'), { users, dataTop100 })
         } catch (err) {
           res.status(500).send(err)
@@ -116,8 +110,8 @@ router
   })
   .get('/signup', (req, res) => { res.render('pages/signup', { dataTop100 }) })
   .get('/login', (req, res) => { res.render('pages/login') })
+
 // SOURCE : https://medium.com/swlh/jwt-authentication-authorization-in-nodejs-express-mongodb-rest-apis-2019-ad14ec818122
-// Login expects the user fill in an email and password, if user is found create a token and redirect the user to the index.
   .post('/login', async (req, res) => {
     try {
       const { email, password } = req.body
@@ -149,7 +143,6 @@ router
       favorite: req.body.gameName
     })
 
-    // First testing with validator
     if (validator.isEmail(user.email)) {
       console.log('this is an email')
     } else {
@@ -160,7 +153,7 @@ router
       await user.save()
       const token = await user.generateAuthToken()
       res.cookie('dating_token', token, {
-        maxAge: (24 * 7) * 60 * 60 * 1000 // 7 days it is in milliseconds
+        maxAge: (24 * 7) * 60 * 60 * 1000
       })
       req.flash('success_msg', 'Je bent geregistreerd en kan inloggen')
       res.redirect('/login')
@@ -168,7 +161,7 @@ router
       res.status(400).send(err)
     }
   })
-// Logout, filter user token and return true if any tokens of is not equal to the token of the loggedin user
+
   .get('/logout', auth, async (req, res) => {
     try {
       req.user.tokens = req.user.tokens.filter((token) => {

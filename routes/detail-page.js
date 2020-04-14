@@ -12,16 +12,13 @@ router
 
     User.findOne({ _id: rawId }, (err, foundObject) => {
       if (err) {
-        console.log(err)
-        res.status(500).send()
+        res.status(500).send(err)
       } else {
         try {
           const renderData = foundObject
-          console.log(renderData)
           res.render('pages/match-profile', { renderData, dataTop100 })
         } catch (err) {
           res.status(404).send('User not found')
-          console.log(err)
         }
       }
     })

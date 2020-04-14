@@ -1,4 +1,3 @@
-// THIS FILE MAKES A DATABASE CONNECTION
 const mongoose = require('mongoose')
 require('dotenv').config()
 
