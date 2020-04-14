@@ -69,5 +69,8 @@ app
   .use(profileRoute)
   .use(detailRoute)
   .use('/static', express.static('static'))
+  .use((req, res) => {
+    res.status(404).render('pages/not-found')
+  })
 
   .listen(process.env.PORT || 3000)

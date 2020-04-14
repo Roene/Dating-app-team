@@ -10,7 +10,7 @@
             <input type="text" name="firstname" placeholder="Voornaam *" value="<%= user.firstname %>" required>
             <input type="text" name="surname" placeholder="Achternaam *" value="<%= user.surname %>" required>
             <input type="number" name="age" placeholder="18 *" min="18" max="99" value="<%= user.age %>" required>
-            <% const genders = ['man', 'vrouw', 'anders'] %>
+            <% const genders = ['man', 'female', 'anders'] %>
             <select name="gender" required>
                <% for (gender of genders) { %>
                     <option value="<%= gender %>" <% if (user.gender === gender) { %> <%="selected"%> <% } %> ><%= gender %> </option>
