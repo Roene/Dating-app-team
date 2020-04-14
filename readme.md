@@ -181,9 +181,9 @@ For the implementation of the security packages there is more information in the
 ## Topics
 Everyone had to pick 1 topic from this [list](https://docs.google.com/document/d/e/2PACX-1vR8ETKWNJqVilyVYdPE6vHoYSoSJT7CaKFy4s1a5in9rt0IF-tujSr3TffwuE9TNDaNnMhtNoA_7Kf7/pub). The research for the chosen topics can be found in the wiki :
 
-* [Externap API](https://github.com/Roene/Dating-app-team/wiki/Feature-External-API)
-* [Security](https://github.com/Roene/Dating-app-team/wiki/Security)
-* [Hash passwords](https://github.com/Roene/Dating-app-team/wiki/Hash-the-passwords-you-store-in-the-database)
+* [Externap API](https://github.com/Roene/Dating-app-team/wiki/Feature-External-API) - Ansy
+* [Security](https://github.com/Roene/Dating-app-team/wiki/Security) - Jelmer
+* [Hash passwords](https://github.com/Roene/Dating-app-team/wiki/Hash-the-passwords-you-store-in-the-database) - Roene
 
 ## Folder structure
 In our project we tried to split up functions and folders to keep it clean.
