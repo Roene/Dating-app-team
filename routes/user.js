@@ -1,7 +1,7 @@
-const express   = require('express')
-const router    = express.Router()
-const multer    = require('multer')
-const validator = require('validator')
+const express             = require('express')
+const router              = express.Router()
+const multer              = require('multer')
+const validator           = require('validator')
 const multerGoogleStorage = require("multer-google-storage")
 // OWN FILES
 const User          = require('../models/user')
