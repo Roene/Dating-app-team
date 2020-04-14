@@ -1,5 +1,5 @@
 
-<form class="form-style-5" action="/" method="GET">
+<form class="form-style-5" action="/search" method="GET">
     <fieldset>
       <legend>Zoek een speler</legend>
       <label for="firstname">Voornaam:</label>
@@ -24,7 +24,7 @@
       <input type="submit" name="save" placeholder="Log-in">
     </fieldset>
   </form>
-  
+
 <section class="result group">
   <% users.forEach(function(users){%>
 <div class="result profile">
@@ -33,7 +33,7 @@
     const fullUrl = baseUrl.concat(imageName)
   %> 
     <img class="profile" src="<%= fullUrl %>" alt="">
-    <h3> <%= users.firstname %> </h3>
+    <h3><a href="/match-profile/<%= users._id %>"><%= users.firstname %></a></h3>
     <p>Age: <%= users.age %></p>
     <p>Gender: <%= users.gender %></p>
 </div>
