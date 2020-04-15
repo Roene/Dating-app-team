@@ -9,7 +9,7 @@ const auth = require('../middleware/auth')
 const dataTop100 = require('../api/outputGames.json')
 
 const upload = multer({
-  storage: multerGoogleStorage.storageEngine()
+  storage: multerGoogleStorage.storageEngine({ bucket: 'datingapp' })
 })
 
 router

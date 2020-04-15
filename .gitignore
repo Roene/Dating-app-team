@@ -3,3 +3,4 @@ node_modules/
 api/outputGames.json
 dating-app-273812-b8fe8eacc03a.json
 .eslintrc.js
+.now
