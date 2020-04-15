@@ -209,6 +209,7 @@ In this project we use the following packages :
 * multer-google-storage
 * rate-limit
 * validator
+* file-system
 
 ## License
 [MIT](https://github.com/Roene/Dating-app-team/blob/master/LICENSE.md) © [Jelmer Lubberts](https://github.com/jelub2) & [Andres Pinto](https://github.com/khualu) & [Roene Verbeek](https://github.com/Roene)
